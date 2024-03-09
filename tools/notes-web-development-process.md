@@ -10,8 +10,9 @@ The table below defines terms we'll use in describing the tools we'll use to dev
 
 &#x20;
 
-| cloud           | The cloud is a network for servers located around the world and accessible via the internet. Cloud services are applications available on on the cloud.                                                                                     |
+| Term            | Meaning                                                                                                                                                                                                                                     |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| cloud           | The cloud is a network for servers located around the world and accessible via the internet. Cloud services are applications available on on the cloud.                                                                                     |
 | IDE             | Interactive Development Environment.                                                                                                                                                                                                        |
 | Replit          | Cloud based online IDE.                                                                                                                                                                                                                     |
 | GitHub          | Cloud based code storage, management, sharing and web hosting.                                                                                                                                                                              |
