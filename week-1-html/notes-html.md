@@ -1,6 +1,12 @@
-# HTML Notes
+# Notes: HTML
 
 HTML is an acronym for **Hypertext Markup Language**. It is a declarative language, meaning it instructs by providing code that tells the browser how to organize and render content. Content may be text, images, video, audio and other types of media.
+
+
+
+
+
+### Categorized List of HTML Element Tags
 
 | Category    | Tags          | Closing Tag | Notes |
 | ----------- | ------------- | ----------- | ----- |
