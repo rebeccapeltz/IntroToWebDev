@@ -23,3 +23,4 @@
   * [HTML Forms Notes](week-3-javascript-html-forms-bootstrap/html-forms-notes.md)
   * [Bootstrap Notes](week-3-javascript-html-forms-bootstrap/bootstrap-notes.md)
 * [Week 4: Web Site](week-4-web-site.md)
+* [Project: Bootstrap Website](project-bootstrap-website.md)
