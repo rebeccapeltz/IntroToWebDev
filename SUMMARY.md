@@ -3,6 +3,7 @@
 * [Page](README.md)
 * [Introduction To Web Development](introduction-to-web-development.md)
 * [Tools](tools/README.md)
+  * [Notes: Web Development Process](tools/notes-web-development-process.md)
   * [Replit](tools/replit.md)
   * [GitHub](tools/github.md)
   * [Replit + GitHub Integration](tools/replit-+-github-integration.md)
