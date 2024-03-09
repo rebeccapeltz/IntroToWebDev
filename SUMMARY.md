@@ -22,5 +22,5 @@
   * [Notes: JavaScript](week-3-javascript-html-forms-bootstrap/notes-javascript.md)
   * [Notes: HTML Forms](week-3-javascript-html-forms-bootstrap/notes-html-forms.md)
   * [Notes: Bootstrap](week-3-javascript-html-forms-bootstrap/notes-bootstrap.md)
-* [Week 4: Web Site](week-4-web-site.md)
-* [Project: Bootstrap Website](project-bootstrap-website.md)
+* [Week 4: Web Site](week-4-web-site/README.md)
+  * [Project: Bootstrap Website](week-4-web-site/project-bootstrap-website.md)
