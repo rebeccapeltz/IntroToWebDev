@@ -8,6 +8,6 @@ Start by creating an account at [https://replit.com/](https://replit.com/).
 
 You can do everything needed in this course inside a free tier account.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Replit.com</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Replit.com</p></figcaption></figure>
 
 ###

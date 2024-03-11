@@ -8,4 +8,4 @@ GitHub pages provides a way to host HTML with CSS and JavaScript on a web server
 
 The URL to your page will be create as: _**https://\<GitHub account name>/\<Repository name>**_
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Configuring GitHub Pages</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Configuring GitHub Pages</p></figcaption></figure>
