@@ -8,4 +8,6 @@ GitHub is a service that allows users to store, manage, and collaborate on devel
 
 Sign up a free account here: [https://github.com/](https://github.com/)
 
+This [video](https://youtu.be/ND978VRpoQQ?si=dlQ2glQxuO7e8fvn) will walk you through creating an account on GitHub.
+
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
