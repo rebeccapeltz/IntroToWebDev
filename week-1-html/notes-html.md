@@ -99,4 +99,6 @@ HTML is an acronym for **Hypertext Markup Language**. It is a declarative langua
 |             | template      |             |       |
 |             |               |             |       |
 
-\
+Resources
+
+[W3 Schools HTML](https://www.w3schools.com/html/)\

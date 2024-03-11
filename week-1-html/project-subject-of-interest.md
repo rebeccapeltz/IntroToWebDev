@@ -23,8 +23,7 @@ Use the tags below to render elements from your HTML code:
 * **li** List Item
 * **footer** Footer
 
-### Resources
+Here's a picture of a pages created to fullfill these requirements.
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Subject of Interest</p></figcaption></figure>
 
-
-[W3 Schools HTML](https://www.w3schools.com/html/)
