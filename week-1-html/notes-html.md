@@ -2,102 +2,17 @@
 
 HTML is an acronym for **Hypertext Markup Language**. It is a declarative language, meaning it instructs by providing code that tells the browser how to organize and render content. Content may be text, images, video, audio and other types of media.
 
+Containment
 
+Block/Inline
 
+Semantic HTML
 
+HTML Attributes
 
 ### Categorized List of HTML Element Tags
 
-| Category    | Tags          | Closing Tag | Notes |
-| ----------- | ------------- | ----------- | ----- |
-| Document    |               |             |       |
-|             | !DOCTYPE html | no          |       |
-|             | ! Comments -- | no          |       |
-|             | html          |             |       |
-| Meta Data   |               |             |       |
-|             | base          | no          |       |
-|             | head          |             |       |
-|             | link          | no          |       |
-|             | meta          | no          |       |
-|             | style         |             |       |
-|             | title         |             |       |
-| Structure   | address       |             |       |
-|             | article       |             |       |
-|             | aside         |             |       |
-|             | body          |             |       |
-|             | div           |             |       |
-|             | footer        |             |       |
-|             | h1            |             |       |
-|             | h2            |             |       |
-|             | h3            |             |       |
-|             | h4            |             |       |
-|             | h5            |             |       |
-|             | h6            |             |       |
-|             | header        |             |       |
-|             | paragraph     |             |       |
-|             | nav           |             |       |
-|             | section       |             |       |
-| Grouping    |               |             |       |
-|             | blockquote    |             |       |
-|             | dd            |             |       |
-|             | dl            |             |       |
-|             | dt            |             |       |
-|             | figure        |             |       |
-|             | figcaption    |             |       |
-|             | hr            | no          |       |
-|             | li            |             |       |
-|             | ol            |             |       |
-|             | pre           |             |       |
-|             | ul            |             |       |
-| Embedding   |               |             |       |
-|             | area          | no          |       |
-|             | audio         |             |       |
-|             | canvas        |             |       |
-|             | embed         | no          |       |
-|             | iframe        |             |       |
-|             | img           | no          |       |
-|             | map           |             |       |
-|             | object        |             |       |
-|             | param         | no          |       |
-|             | picture       |             |       |
-|             | source        | no          |       |
-|             | track         | no          |       |
-|             | video         |             |       |
-| Forms       |               |             |       |
-|             | button        |             |       |
-|             | datalist      |             |       |
-|             | fieldset      |             |       |
-|             | form          |             |       |
-|             | input         | no          |       |
-|             | label         |             |       |
-|             | legend        |             |       |
-|             | meter         |             |       |
-|             | optgroup      |             |       |
-|             | option        |             |       |
-|             | output        |             |       |
-|             | progress      |             |       |
-|             | select        |             |       |
-|             | textarea      |             |       |
-| Tabular     |               |             |       |
-|             | caption       |             |       |
-|             | col           | no          |       |
-|             | colgroup      |             |       |
-|             | table         |             |       |
-|             | tbody         |             |       |
-|             | td            |             |       |
-|             | tfoot         |             |       |
-|             | th            |             |       |
-|             | thead         |             |       |
-|             | tr            |             |       |
-| Interactive |               |             |       |
-|             | details       |             |       |
-|             | summary       |             |       |
-|             | dialog        |             |       |
-| Script      |               |             |       |
-|             | noscript      |             |       |
-|             | script        |             |       |
-|             | template      |             |       |
-|             |               |             |       |
+<table><thead><tr><th width="168">Category</th><th width="156">Tags</th><th width="92">Closing</th><th>Tag Example</th></tr></thead><tbody><tr><td>Document</td><td></td><td></td><td></td></tr><tr><td></td><td>!DOCTYPE html</td><td>no</td><td>&#x3C;!DOCTYPE html></td></tr><tr><td></td><td>&#x3C;! Comments --></td><td>no</td><td><code>&#x3C;!-- Comments --></code></td></tr><tr><td></td><td>html</td><td></td><td><code>&#x3C;html>...&#x3C;/html></code></td></tr><tr><td>Meta Data</td><td></td><td></td><td></td></tr><tr><td></td><td>base</td><td>no</td><td>default target for links  <code>&#x3C;base href="https://www.example.com" target="_blank" ></code></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td>head</td><td></td><td>&#x3C;head>...&#x3C;/head></td></tr><tr><td></td><td>link</td><td>no</td><td>link to CSS file<code>&#x3C;link href="style.css" rel="stylesheet" type="text/css" /></code></td></tr><tr><td></td><td>meta</td><td>no</td><td><code>&#x3C;meta name="viewport" content="width=device-width"></code></td></tr><tr><td></td><td>style</td><td></td><td>local CSS <code>&#x3C;style>...&#x3C;/style></code></td></tr><tr><td></td><td>title</td><td></td><td>title appears in the tab of the browser <code>&#x3C;title>...&#x3C;/title></code></td></tr><tr><td>Structure</td><td></td><td></td><td></td></tr><tr><td></td><td>address</td><td></td><td><code>Contact Information &#x3C;address>...&#x3C;/address></code></td></tr><tr><td></td><td>article</td><td></td><td><code>&#x3C;article>...&#x3C;/article></code></td></tr><tr><td></td><td>aside</td><td></td><td><code>&#x3C;aside>...&#x3C;/aside></code></td></tr><tr><td></td><td>body</td><td></td><td><code>&#x3C;body>...&#x3C;/body></code></td></tr><tr><td></td><td>div</td><td></td><td><code>&#x3C;div>...&#x3C;/div></code></td></tr><tr><td></td><td>footer</td><td></td><td><code>&#x3C;footer>...&#x3C;/footer></code></td></tr><tr><td></td><td>h1</td><td></td><td><code>&#x3C;h1>...&#x3C;/h1></code></td></tr><tr><td></td><td>h2</td><td></td><td><code>&#x3C;h2>...&#x3C;/h2></code></td></tr><tr><td></td><td>h3</td><td></td><td><code>&#x3C;h3>...&#x3C;/h3></code></td></tr><tr><td></td><td>h4</td><td></td><td><code>&#x3C;h4>...&#x3C;/h4></code></td></tr><tr><td></td><td>h5</td><td></td><td><code>&#x3C;h5>...&#x3C;/h5></code></td></tr><tr><td></td><td>h6</td><td></td><td><code>&#x3C;h6>...&#x3C;/h6></code></td></tr><tr><td></td><td>header</td><td></td><td><code>&#x3C;header>...&#x3C;/header></code></td></tr><tr><td></td><td>paragraph</td><td></td><td><code>&#x3C;p>...&#x3C;/p></code></td></tr><tr><td></td><td>nav</td><td></td><td><code>&#x3C;nav>...&#x3C;/nav></code></td></tr><tr><td></td><td>section</td><td></td><td><code>&#x3C;section>...&#x3C;/section></code></td></tr><tr><td>Grouping</td><td></td><td></td><td></td></tr><tr><td></td><td>blockquote</td><td></td><td><code>&#x3C;blockquote citation="URL">...&#x3C;/blockquote></code></td></tr><tr><td></td><td>dd</td><td></td><td>definition contained in description list <code>&#x3C;dd>...&#x3C;/dd></code></td></tr><tr><td></td><td>dl</td><td></td><td>description list <code>&#x3C;dl>...&#x3C;/dd></code></td></tr><tr><td></td><td>dt</td><td></td><td>term contained in description list <code>&#x3C;dt>...&#x3C;/dt></code></td></tr><tr><td></td><td>figure</td><td></td><td>contain photos, diagrams, code, figcaption <code>&#x3C;figure>...&#x3C;/figure></code></td></tr><tr><td></td><td>figcaption</td><td></td><td><code>&#x3C;figcaption>...&#x3C;/figcaption></code></td></tr><tr><td></td><td>hr</td><td>no</td><td>horizonal rule &#x3C;hr></td></tr><tr><td></td><td>li</td><td></td><td></td></tr><tr><td></td><td>ol</td><td></td><td></td></tr><tr><td></td><td>pre</td><td></td><td></td></tr><tr><td></td><td>ul</td><td></td><td></td></tr><tr><td>Embedding</td><td></td><td></td><td></td></tr><tr><td></td><td>area</td><td>no</td><td></td></tr><tr><td></td><td>audio</td><td></td><td></td></tr><tr><td></td><td>canvas</td><td></td><td></td></tr><tr><td></td><td>embed</td><td>no</td><td></td></tr><tr><td></td><td>iframe</td><td></td><td></td></tr><tr><td></td><td>img</td><td>no</td><td></td></tr><tr><td></td><td>map</td><td></td><td></td></tr><tr><td></td><td>object</td><td></td><td></td></tr><tr><td></td><td>param</td><td>no</td><td></td></tr><tr><td></td><td>picture</td><td></td><td></td></tr><tr><td></td><td>source</td><td>no</td><td></td></tr><tr><td></td><td>track</td><td>no</td><td></td></tr><tr><td></td><td>video</td><td></td><td></td></tr><tr><td>Forms</td><td></td><td></td><td></td></tr><tr><td></td><td>button</td><td></td><td></td></tr><tr><td></td><td>datalist</td><td></td><td></td></tr><tr><td></td><td>fieldset</td><td></td><td></td></tr><tr><td></td><td>form</td><td></td><td></td></tr><tr><td></td><td>input</td><td>no</td><td></td></tr><tr><td></td><td>label</td><td></td><td></td></tr><tr><td></td><td>legend</td><td></td><td></td></tr><tr><td></td><td>meter</td><td></td><td></td></tr><tr><td></td><td>optgroup</td><td></td><td></td></tr><tr><td></td><td>option</td><td></td><td></td></tr><tr><td></td><td>output</td><td></td><td></td></tr><tr><td></td><td>progress</td><td></td><td></td></tr><tr><td></td><td>select</td><td></td><td></td></tr><tr><td></td><td>textarea</td><td></td><td></td></tr><tr><td>Tabular</td><td></td><td></td><td></td></tr><tr><td></td><td>caption</td><td></td><td></td></tr><tr><td></td><td>col</td><td>no</td><td></td></tr><tr><td></td><td>colgroup</td><td></td><td></td></tr><tr><td></td><td>table</td><td></td><td></td></tr><tr><td></td><td>tbody</td><td></td><td></td></tr><tr><td></td><td>td</td><td></td><td></td></tr><tr><td></td><td>tfoot</td><td></td><td></td></tr><tr><td></td><td>th</td><td></td><td></td></tr><tr><td></td><td>thead</td><td></td><td></td></tr><tr><td></td><td>tr</td><td></td><td></td></tr><tr><td>Interactive</td><td></td><td></td><td></td></tr><tr><td></td><td>details</td><td></td><td></td></tr><tr><td></td><td>summary</td><td></td><td></td></tr><tr><td></td><td>dialog</td><td></td><td></td></tr><tr><td>Script</td><td></td><td></td><td></td></tr><tr><td></td><td>noscript</td><td></td><td></td></tr><tr><td></td><td>script</td><td></td><td></td></tr><tr><td></td><td>template</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 Resources
 
