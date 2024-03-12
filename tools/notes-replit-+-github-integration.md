@@ -20,7 +20,7 @@ Install Replit On GitHub By Registerig it as a Connect Service in your Replit Ac
 
 <figure><img src="https://lh7-us.googleusercontent.com/T0aATqVHHa7x4FiqgTUT7OYpWHQn9ejr3fUeLIMhSRt5fYISoT5xjNnqeUAOd6OuDSB_WaCkitsCfyFlgQTFbJQ9KKrXUqN0N_DQlTK9mCutLIPGKhrAm_5WfcWM0HQ8_E0FDGQdWPftKRntP8G7qSeuYg=nw" alt=""><figcaption><p>GitHub is Connected When Connect Services offers Disconnect Link</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>GitHub will show Replit as an Installed App When Replit Shows GitHub Services Connected</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>GitHub will show Replit as an Installed App When Replit Shows GitHub Services Connected</p></figcaption></figure>
 
 #### Create or Open a Repl That is Not Integrated with GitHub&#x20;
 
@@ -32,7 +32,7 @@ Check the "Create initial commit with all changes" or you will be prompted later
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Enter Values for Remote, Repository Name, and Select Default Replit User or Authorize New User</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Enter Values for Remote, Repository Name, and Select Default Replit User or Authorize New User</p></figcaption></figure>
 
 </div>
 
