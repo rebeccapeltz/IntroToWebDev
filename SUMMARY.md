@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Page](README.md)
-* [Introduction To Web Development](introduction-to-web-development.md)
+* [Introduction To Web Development](README.md)
 * [Tools](tools/README.md)
   * [Notes: Web Development Process](tools/notes-web-development-process.md)
   * [Notes: Replit](tools/notes-replit.md)
