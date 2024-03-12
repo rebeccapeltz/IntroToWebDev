@@ -10,7 +10,7 @@
   * [GitHub Pages Hosting](tools/github-pages-hosting.md)
 * [Week 1: HTML](week-1-html/README.md)
   * [Notes: HTML](week-1-html/notes-html.md)
-  * [Notes: Working With Images Notes](week-1-html/notes-working-with-images-notes.md)
+  * [Notes: Working With Images](week-1-html/notes-working-with-images.md)
   * [Project: Hello World](week-1-html/project-hello-world.md)
   * [Project: Subject of Interest](week-1-html/project-subject-of-interest.md)
 * [Week 2: CSS](week-2-css/README.md)
