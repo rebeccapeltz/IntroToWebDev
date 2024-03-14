@@ -10,17 +10,17 @@ Before we add CSS for these layouts, we'll look at two broad techniques for cont
 
 ### Common Layout
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Common Layout</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Common Layout</p></figcaption></figure>
 
 
 
 ### Layout for Image Gallery
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Layout With No Styling
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>No Style</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>No Style</p></figcaption></figure>
 
 
 
