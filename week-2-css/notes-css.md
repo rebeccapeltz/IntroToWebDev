@@ -1,51 +1,123 @@
-# CSS Notes
+# Notes: CSS
 
 CSS is an acronym for **Cascading Style Sheets**
 
-This week, we start working with CSS. CSS is a declarative language. It instructs by telling the browser how to apply style to sections of an HTML web page. Style can include, color, positioning, fonts and animation.
+This week, we start working with CSS. CSS is a declarative language that instructs the browser how to apply style to sections of an HTML web page. Style can include color, positioning, fonts, and animation.
 
-We'll start learning centering the contents of a web page so that it is not all bunched up at the left of the page. Then we'll look at laying out images for an image gallery. There are many ways that this layout could be achieved but we'll be learning to use [Flex Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) layout to do this.
+We'll start learning to center the contents of a web page so that it is not all bunched up at the left of the page. Then, we'll look at laying out images for an image gallery. This layout could be achieved in many ways, but we'll be learning to use the [Flex Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) layout to do this.
 
 ### Selectors and Properties
 
-
-
 CSS code is made up of **Selectors** and **Properties**. It follows this pattern:
 
-```
+```css
 selector {
     property: value;
 }
 ```
 
-Selectors can be HTML tags, HTML id attributes, or CSS classes. There are 3 ways to add CSS to a web page:
+Selectors can be HTML tags, HTML ID attributes, or CSS classes.  &#x20;
 
-1. Create a separate file containing CSS and link it to the web page using the `link` HTML tag.
-2. Create a `<style>` section in the `<head>` of an HTML page and add CSS that will be applied to the page.
-3. Add `style=""` attributes to an HTML element tag and style the element directly.
+#### Element Tag Selector
 
-Traditionally, developers have coded the CSS in separate files and linked it to the web page. This allows for the reuse of CSS across many pages. However the closer the CSS code is to the HTML that is is styling, the more likely it will be applied. See the section on "Cascading" to learn more about this.
+In the example below, an HTML tag is used as a selector.  It sets the color of the paragraph text to black.
 
-### CSS Selectors
+```css
+/* Tag Selector */
+p {
+    color: #000;
+}
+```
+
+#### Class Selector
+
+In the example below, we show HTML and CSS.  The HTML div element has a class attribute.  Classes may be applied to many elements on a page.  CSS will attempt to style all classes as defined in the code.  Both paragraphs 1 and 3 will have a blue font color because they have been assigned the `brand` class.&#x20;
+
+```html
+<p class="brand">This is paragraph 1.</p>
+<p>This is paragraph 2.</p>
+<p class="brand">This is paragraph 3.</p>
+```
+
+```css
+/* class Selector */
+.brand {
+    color: blue;
+}
+```
+
+#### Element ID Selector
+
+In the example below, we show HTML and CSS.  The HTML div element has an ID attribute set to "container".   The CSS uses the ID attribute as a selector.  The `#` is used to indicate a container.  IDs are unique on a page, so this method is more specific than using a `div` for a selector.
+
+```html
+<div id="container">
+Hello
+</div>
+```
+
+```css
+/* id selector */
+#container {
+    background-color: gray;
+}
+```
 
 
 
-This [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) can help you to see the variety of properties that you can use in your CSS file.
+### Three Ways to Add CSS to a Web Page
 
-The list below shows the properties we'll use in this week's assignment:
+There are 3 ways to add CSS to a web page:
 
-* `*` all elements
-* `body`,`span`,`ul`, `li`, `img` are HTML elements and styles will be applied to all
-* `.container`, `.heading-text` and many more are classes you can make up the names yourself and they are referenced by the `.` in front
-* `#id` the `#` in front of a name indicates an element with a unique id that has been supplied as an attribute of the element
+1. Create a separate file containing CSS and link it to the web page using the `link` HTML tag. In the example below, we would place the `link` tag in the `head` section of the document.  The file `style.css` would be located in the same directory as the HTML file containing the link tag.
 
-**something about "specificty" and how you can address child items**
+{% code fullWidth="true" %}
+```
+<link href="style.css" rel="stylesheet" type="text/css" />
+```
+{% endcode %}
 
+2. Create a `<style>` section in the `head` section of an HTML page and add CSS that will be applied to the page.
 
+```
+<style>
+    body{
+        color: red;
+        background-color: white;
+        font-size: 1rem;
+    }
+</style> 
+```
+
+3. Add `style=""` attributes to an HTML element tag and style the element directly. In the example below, we are styling the color of the paragraph text to be light gray and the background color black.  No selectors are needed when assigning properties to an element using the style attribute.
+
+```
+<p style="color: lightgray;background-color:black;">Hello</p>
+```
+
+Developers have often coded the CSS in separate files and linked it to the web page. This allows for the reuse of CSS across many pages. However the closer the CSS code is to the HTML that is is styling, the more likely it will be applied. See the section on "Cascading" to learn more about this.
+
+###
+
+### Cascading, Specificity, and Inheritance Rules
+
+**Cascading** in the CSS acronym refers to browsers' methods to resolve conflicts when different styles refer to the same elements. Because there are multiple ways that styles can be added, such as linking to external documents, using the \
+&#x20;tag, and using inline styles, there has to be a way to resolve which gets used. You can usually determine the style used by finding the one closest to the element. An inline style would be applied over a style provided in a linked stylesheet.  Cascade rules look at the order of the styles as they apply to an element.
+
+In the example below the "Gill Sans, sans-serif" font family will be used for all paragraphs because it was specified after the "George, serif".  CSS rules interpret styles that are lower in the list as being closer to the item styles.&#x20;
+
+```
+p {
+    font-family: Georgia, serif;
+}
+p {
+    font-family: Gill Sans, sans-serif;
+}
+```
+
+**Specificity** refers to the "cascade" used to evaluate an element's style. In the example above, both styles used the same cascade layer. They both provide styles applied to a paragraph. In the examples above, the ID selector is the most specific, followed by the class selector and then the element selector.
 
 ### Box Model
-
-
 
 Every element defines a box. There is an inner and outer portion of the box, and these spaces can be styled with padding and margin respectively. They may also be a border on the box. By default the content defines the width and height and if there is a border it adds to this. This is not convenient so you will find the `box-sizing: border-box` added to many websites. This will tell the browser to include the border in calculating the width and height of the content. See [MDN Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) for more on this. You can see that there could be a problem specifying `width: 100%` and expecting that the content and border would both be included in the elements box.
 
@@ -139,12 +211,7 @@ It is possible to make an inline element like `button` behave as a block element
 * tt
 * var
 
-### The Meaning of "Cascading"
-
-
-
-The term **Cascading** in CSS refers to the algorithm that browser use to resolve conflicts when different styles refer to the same elements. Because there are multiple ways that styles can be added such as linking to external documents, using the `style` tag, and inline styles, there has to be a way to resolve which actually gets used. In general you can usually determine the style that will be used by finding the one closest to the element. An inline style would be applied over a style provided in a linked stylesheet.\
-You can read more about this at [MDN here](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade).
+###
 
 ### Color in CSS
 
