@@ -59,7 +59,7 @@ Hello
 ```css
 /* id selector */
 #container {
-    background-color: gray;
+    background-color: grey;
 }
 ```
 
@@ -89,10 +89,10 @@ There are 3 ways to add CSS to a web page:
 </style> 
 ```
 
-3. Add `style=""` attributes to an HTML element tag and style the element directly. In the example below, we are styling the color of the paragraph text to be light gray and the background color black.  No selectors are needed when assigning properties to an element using the style attribute.
+3. Add `style=""` attributes to an HTML element tag and style the element directly. In the example below, we are styling the color of the paragraph text to be light grey and the background color black.  No selectors are needed when assigning properties to an element using the style attribute.
 
 ```
-<p style="color: lightgray;background-color:black;">Hello</p>
+<p style="color: lightgreay;background-color:black;">Hello</p>
 ```
 
 Developers have often coded the CSS in separate files and linked it to the web page. This allows for the reuse of CSS across many pages. However the closer the CSS code is to the HTML that is is styling, the more likely it will be applied. See the section on "Cascading" to learn more about this.
@@ -218,10 +218,10 @@ p.discussion {
 ### Color in CSS
 
 Color can be expressed in many ways in CSS. It is a value for the `color` and `background-color` properties. CSS provides `16,777,216` colors. This is based on 256 colors per each of the Red/Green/Blue. Multiply `256 * 256 * 256` to get `16,777,216`.\
-RGB colors are expressed as hex values. Hex values are base 16 values (0,1,2,3,4,5,6,7,8,9, A, B, C, D, E, F). The color white which is all RGB channels turned to their highest value is `FFFFFF` and you will see it in code often abbreviated as `#FFF`. The color black which is all RGB channels turned off is expressed as, abbreviated as `#000`. The color red is `#F00` or `#FF0000` because the 1st channel is red. The color green is `#0F0` or `#00FF00` because the 2nd channel is green. and the color blue is `#00F` or `#0000FF` because the 3rd channel is blue.\
+RGB colors are expressed as hex values. Hex values are base 16 values (0,1,2,3,4,5,6,7,8,9, A, B, C, D, E, F). The color white, which is all RGB channels turned to their highest value is `FFFFFF` , and you will see it in code often abbreviated as `#FFF`. The color black, which is all RGB channels turned off, is expressed as, abbreviated as `#000`. The color red is `#F00` or `#FF0000` because the 1st channel is red. The color green is `#0F0` or `#00FF00` because the 2nd channel is green. and the color blue is `#00F` or `#0000FF` because the 3rd channel is blue.\
 You can express colors by their names, but there aren't 16 million names for colors, the RGB is more expressive. This [Wikipedia Color Chart](https://en.wikipedia.org/wiki/Web\_colors) shows many named colors with their RGB values. The chart also shows HSL and HSV conventions for specifying colors.
 
-There may be color names not found on all browsers or devices, so if you want to use a color with a less well-known name, it's a good idea to use its RGB values. Colors like black, white, gray, red, blue, and green will not have a problem, but a color like "celadon" might not work and you could use `#ACDCAC` instead.
+There may be color names not found on all browsers or devices, so if you want to use a color with a less well-known name, it's a good idea to use its RGB values. Colors like black, white, grey, red, blue, and green will not have a problem, but a color like "celadon" might not work and you could use `#ACDCAC` instead.
 
 This [Color Picker](https://www.w3schools.com/colors/colors\_picker.asp) provides a good way to experiment with colors used on web pages.
 
