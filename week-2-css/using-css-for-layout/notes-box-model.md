@@ -50,3 +50,7 @@ div {
 Hover over one div in the browser to see how the space is allocated.  The tan color is the margin, and the green is the padding., and the blue is content.
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+### Resources
+
+[MDN Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building\_blocks/The\_box\_model)
