@@ -12,5 +12,5 @@ You can assign height to a block element but not an inline element.
 
 It is possible to make an inline element  `button` behave as a block element by using the `display: inline-block` property/value. This allows you to assign height to a button. Another use case  `inline-block` is to make a list appear horizontally. The `li` is a block item and renders vertically by default. In a navigation header, the list may need to be rendered horizontally and it `inline-block` can be used for this. This blog from [CSS Tricks](https://css-tricks.com/when-do-you-use-inline-block/) describes some use cases for this.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>CSS Box Model</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>CSS Box Model</p></figcaption></figure>
 
