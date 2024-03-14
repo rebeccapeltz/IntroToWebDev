@@ -14,6 +14,7 @@
   * [Project: Subject of Interest](week-1-html/project-subject-of-interest.md)
 * [Week 2: CSS](week-2-css/README.md)
   * [Notes: CSS](week-2-css/notes-css.md)
+  * [Notes: Box Model](week-2-css/notes-box-model.md)
   * [Notes: Flexbox](week-2-css/notes-flexbox.md)
   * [Project: Style Subject of Interest](week-2-css/project-style-subject-of-interest.md)
   * [Project: Image Gallery By Row](week-2-css/project-image-gallery-by-row.md)
