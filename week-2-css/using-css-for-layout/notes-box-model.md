@@ -57,6 +57,12 @@ Hover over one div in the browser to see how the space is allocated.  The tan co
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Chrome Inspector shows box model content, padding, and  margin</p></figcaption></figure>
 
+### Block vs Inline: Margin and Padding
+
+This example shows how margin and padding behave with block vs inline elements.  The block elements are outlined in green.  The inline element follows the second block element.  Notice in the image that the block element has a margin applied to the top, right, bottom, and left (both horizontal and vertical) directions.  The inline span element has a margin specified for the top and right, but it is only applied to the right (horizontal).  Padding is applied to all sides of each element.  For the block elements, it never overlaps, but for the inline element, it can overlap.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Inline Element Top Padding causes Overlap</p></figcaption></figure>
+
 ### Resources
 
 [MDN Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building\_blocks/The\_box\_model)
