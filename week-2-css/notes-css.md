@@ -188,13 +188,33 @@ Another way to solve the problem above is to wrap the image elements in a block 
 
 ### CSS Solutions for Block and Inline Elements
 
-We can use CSS instead of HTML to solve the problem above with images.  Here is the HTML and CSS that uses the `display` property to make images behave as block elements.  Images are a little different than other inline elements in that you can set their height or width, but by using the display property you can guarantee they will render on separate lines.
+We can use CSS instead of HTML to solve the problem above with images.  Here is the HTML and CSS that uses the `display` property to make images behave as block elements.  Images are a little different than other inline elements in that you can set their height or width, but by using the display property, you can guarantee they will render on separate lines.
 
 ```
 <!-- dog and cat render on separate lines  -->
 <img style="display:block;" src="dog.jpg">
 <img style="display:block;" src="cat.jpg">
 ```
+
+Another use for `display` is to make anchor tags, which are inline, render horizontally as anchor tags normally would, but give them a height and width.  We know that height and width are usually only available for block element.  This is commonly see in a navigation bar.
+
+In the CSS below, we are setting the `nav a` to `display inline-block`. Note that we using specificity so that only the anchor elements under the nav element use this code.  Once the elements are set to `inline-block` we can apply height and width.  The rest of the properties can be applied to inline or block elements.  The result is shown below.
+
+```css
+nav a {
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    background-color: #000;
+    color: lightgrey;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### HTML Tags are Categorized by Block and Inline
 
