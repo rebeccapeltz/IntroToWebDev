@@ -136,6 +136,36 @@ We can view the pattern schematically.
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
+```css
+/* By default the images we will render in a single column. This 
+is what we see in the mobile view. */
+.image-gallery {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+/* Within each "column" div, we render a column.
+The selector here lists two classes, so it applies to any container that is 
+a column within an image gallery.
+*/
+.image-gallery .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Media queries are used to supply CSS to be applied to 
+specific size screens.
+This code applies only to screens as big or bigger as a tablet. 
+*/
+@media only screen and (min-width: 768px) {
+    .image-gallery {
+      flex-direction: row;
+    }
+}
+```
+
 ### Resources
 
 [MDN Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_flexible\_box\_layout/Basic\_concepts\_of\_flexbox)
