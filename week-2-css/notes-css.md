@@ -117,9 +117,9 @@ p {
 
 **Inheritance** refers to CSS applying styles to elements contained within another styled element.  In the example below, the body is styled to use a sans-serif font family.  This means that all elements within the body will use sans-serif.   We can override inheritance by using a more specific style.
 
-The main header and the first paragraph are rendered as sans-serif, but the second paragraph is specifically set to render as serif. So, the first paragraph inherits from the body style, but the second paragraph uses a more specific style and does not use inheritance for font family.
+The main header and the first paragraph are rendered as sans-serif, but the second paragraph is expressly set to render as serif. So, the first paragraph inherits from the body style, but the second paragraph uses a more specific style and does not use inheritance for the font family.
 
-In this example, we see the use of both tag and class to create a selector. `p.discussion`.
+In this example, we see using both tag and class to create a selector. `p.discussion`.
 
 ```css
 body {
@@ -134,14 +134,69 @@ p.discussion {
 <body>
     <h1>Header 1</h1>
     <p>First is a paragraph rendered sans-serif.</p>
-    <p class="discussion">This is a paragraph rendered serif.</p>
+    <p class="discussion">This paragraph is rendered with the serif font.</p>
 </body>
 
 ```
 
 ###
 
-### HTML Elements: Block and Inline
+### HTML Elements: Block and Inline Elements
+
+Block Elements have the following characteristics when rendered on a web page:
+
+* they always start on a new line
+* they use an entire line
+* both height and width properties can be applied
+* both vertical and horizontal margins can be applied
+* padding works on all sides
+
+Inline Elements have the following characteristics when rendered on a web page:
+
+* do not start on a new line unless directly following a block element
+* width is determined only by the size of the content
+* height and width properties cannot be applied
+* horizontal margin can be applied, but a vertical margin cannot
+* padding works on all sides but may overlap
+
+In general, block elements provide a page's structure, and inline elements format content within a block.
+
+Sometimes, we want to override some of the built-in behavior of block and inline elements. Using the `<br>` element is an example of adding a new line after an inline element.  The \<br> element is a  The Image element is inline.  If two image elements are side by side, they will render on the same line.  Using the \<br> we force the next element to the next line.
+
+```html
+<!-- dog and cat render next to each other on the same line  -->
+<img src="dog.jpg"><img src="cat.jpg">
+```
+
+```
+<!-- dog and cat render on separate lines -->
+<img src="dog.jpg"><br>
+<img src="cat.jpg">
+```
+
+Another way to solve the problem above is to wrap the image elements in a block element like a `<div>`.
+
+```html
+<!-- wrap images in a div tag -->
+<div>
+<img src="dog.jpg">
+</div>
+<div>
+<img src="cat.jpg">
+</div>
+```
+
+### CSS Solutions for Block and Inline Elements
+
+We can use CSS instead of HTML to solve the problem above with images.  Here is the HTML and CSS that uses the `display` property to make images behave as block elements.  Images are a little different than other inline elements in that you can set their height or width, but by using the display property you can guarantee they will render on separate lines.
+
+```
+<!-- dog and cat render on separate lines  -->
+<img style="display:block;" src="dog.jpg">
+<img style="display:block;" src="cat.jpg">
+```
+
+### HTML Tags are Categorized by Block and Inline
 
 #### Block Elements
 

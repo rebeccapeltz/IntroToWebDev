@@ -2,7 +2,13 @@
 
 ### Introduction to the Box Model
 
-The Box Model looks at content, padding, borders, and margins.  These styles determine how elements will be rendered concerning their neighbors and the page.
+The Box Model looks at content and these CSS properties that determine how elements will be rendered concerning their neighbors and the page.
+
+* padding
+* borders
+* margins
+* height
+* width
 
 Every element defines a box. The box's inner and outer portions can be styled with padding and margin. There may also be a border on the box. By default, the content defines the width and height; if there is a border, it adds to this. This is inconvenient, so you will find it `box-sizing: border-box` added to many websites. This will tell the browser to include the border when calculating the width and height of the content. See [MDN Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) for more on this. You can see that there could be a problem specifying `width: 100%` and expecting that the content and border would be included in the element's box.
 
@@ -49,7 +55,7 @@ div {
 
 Hover over one div in the browser to see how the space is allocated.  The tan color is the margin, and the green is the padding., and the blue is content.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Chrome Inspector shows box model content, padding, and  margin</p></figcaption></figure>
 
 ### Resources
 
