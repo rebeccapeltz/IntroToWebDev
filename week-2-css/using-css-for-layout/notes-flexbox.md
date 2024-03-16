@@ -85,6 +85,50 @@ Items are laid out by column and are centered across the row using `align-items.
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Flex Direction Column and Item Aligned to Center Within Row</p></figcaption></figure>
 
+### Flex Box Wrap
+
+The ability for this one-dimensional layout to wrap is what makes this a good choice for Responsive websites.  In the code below, we have set up a centered, row wrap.
+
+```html
+<head>
+<style> 
+#container {
+  width: 80%;
+  border: 1px solid #c3c3c3;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#container div {
+  width: 300px;
+  height: 200px;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div style="background-color:coral;">A</div>
+  <div style="background-color:lightblue;">B</div>
+  <div style="background-color:khaki;">C</div>
+  <div style="background-color:pink;">D</div>
+</div>
+</body>
+```
+
+The result on a screen wider than 600 px is shown below.
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Row Wrap 600px Wide Divs</p></figcaption></figure>
+
+The result on a screen less than 600px is this:&#x20;
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Row wrap on screen less than 600px</p></figcaption></figure>
+
+This ability to spread content on a larger screen and contract to a single row on a smaller screen makes Flex so helpful when creating responsive web pages.
+
 ### Resources
 
 [MDN Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_flexible\_box\_layout/Basic\_concepts\_of\_flexbox)
