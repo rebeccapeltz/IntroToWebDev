@@ -89,7 +89,29 @@ You can also look at [https://tinypng.com/](https://tinypng.com/) to compress im
 
 ### Uploading Images to Replit
 
+To upload a file to Replit, click on the 3 dots and select **Upload file**.  Navigate to the location on your local hard drive to select the file.  If you downloaded the file from an online source it will likely be located in the /Download directory.
 
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Upload file to replit.com</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Downloaded file will usually be in a /Download directory</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Uploaded File will be located in the directory that you were positioned in</p></figcaption></figure>
+
+Create a new folder to store uploaded images.  Call it "images".
+
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+Drag the image file that was uploaded into the **/images** folder.
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Use a new folder /images to store uploaded images</p></figcaption></figure>
+
+Replacing "Hello World" with an image tag.  By placing the `./` in front of the folder we are directing the browser to start looking for the images folder from the current code location.
+
+```
+ <img height="400" width="auto" src="./images/skewed-min.jpg" alt="tree">
+```
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Rendering the uploaded image form the images folder</p></figcaption></figure>
 
 ### Setting Up the Image Src Attribute
 
