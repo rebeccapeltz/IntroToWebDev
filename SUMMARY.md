@@ -18,7 +18,7 @@
     * [Notes: Box Model](week-2-css/using-css-for-layout/notes-box-model.md)
     * [Notes: Flexbox](week-2-css/using-css-for-layout/notes-flexbox.md)
     * [Notes: Responsive Layout](week-2-css/using-css-for-layout/notes-responsive-layout.md)
-  * [Project: Styling Subject of Interest](week-2-css/project-styling-subject-of-interest.md)
+  * [Project: Styling Subject of Interest](week-2-css/project-style-subject-of-interest.md)
   * [Project: Image Gallery](week-2-css/project-image-gallery/README.md)
     * [By Row](week-2-css/project-image-gallery/by-row.md)
     * [By Column](week-2-css/project-image-gallery/by-column.md)

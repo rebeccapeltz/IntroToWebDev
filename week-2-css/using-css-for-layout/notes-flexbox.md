@@ -129,6 +129,35 @@ The result on a screen less than 600px is this:&#x20;
 
 This ability to spread content on a larger screen and contract to a single row on a smaller screen makes Flex so helpful when creating responsive web pages.
 
+### Centering Content on a Page Using FlexBox
+
+To center the elements on a page using FlexBox, we use the flex-direction:column to line up the element in a column.  The align-items property lines up elements on the cross-axis, so horizontally.
+
+The code below demonstrates how to apply box model properties to achieve centered content.
+
+```html
+<head>
+<style>
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<h1>This Header is Centered</h1>
+	<p>This element has is centered.</p>
+</div>
+</body>
+```
+
+The result is a page where the header and paragraph are both centered.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Centering Content with FlexBox</p></figcaption></figure>
+
 ### Resources
 
 [MDN Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_flexible\_box\_layout/Basic\_concepts\_of\_flexbox)

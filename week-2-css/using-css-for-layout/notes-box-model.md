@@ -63,7 +63,7 @@ This example shows how margin and padding behave with block vs inline elements. 
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Inline Element Top Padding causes Overlap</p></figcaption></figure>
 
-### Centering Items on a Page Using Box Model
+### Centering Content on a Page Using Box Model
 
 Box model techniques rely on padding, margin, width, and height.  In the code below, we create a style for a class named `container`.  The element assigned to this class could be a child of the `body` component or another aspect on the web page.  By setting the width to  80%, we nest the children within the container's parent because it will only take up a portion of the parent's width.
 
