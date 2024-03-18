@@ -6,11 +6,11 @@ HTML is an acronym for **Hypertext Markup Language**. It is a declarative langua
 
 HTML is interpreted by browsers.  Not all browser are the same.  The chart below from [Statista](https://www.statista.com/statistics/268254/market-share-of-internet-browsers-worldwide-since-2009/) shows that Google Chrome has the most market share, followed by Apple Safari and Microsoft Edge. &#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Browser Market Share since 2012</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Browser Market Share since 2012</p></figcaption></figure>
 
 The HTML language is always evolving.  If you want to find out if the HTML you are using will work in the browsers that you are supporting, you can visit the [caniuse](https://caniuse.com/) page. In the picture below, caniuse is reporting that the HTML table tag element is supported in all of the browsers.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Containment
 

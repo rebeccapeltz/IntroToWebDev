@@ -10,4 +10,4 @@ Sign up a free account here: [https://github.com/](https://github.com/)
 
 This [video](https://youtu.be/ND978VRpoQQ?si=dlQ2glQxuO7e8fvn) will walk you through creating an account on GitHub.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>

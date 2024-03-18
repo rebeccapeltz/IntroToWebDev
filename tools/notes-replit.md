@@ -10,6 +10,6 @@ This [video](https://youtu.be/XvGW2MOWYLo?si=0tzvW\_MrgjtmNnlq) will walk you th
 
 You can do everything needed in this course inside a free tier account.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Replit.com</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Replit.com</p></figcaption></figure>
 
 ###

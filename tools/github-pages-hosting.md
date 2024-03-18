@@ -12,4 +12,4 @@ The URL to your page will be create as: _**https://\<GitHub account name>/\<Repo
 
 
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Configuring GitHub Pages</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Configuring GitHub Pages</p></figcaption></figure>

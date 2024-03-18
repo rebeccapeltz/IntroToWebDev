@@ -16,11 +16,11 @@ The table below summarizes the width and height of different device screens.  Th
 
 When creating layouts, we must consider how they would appear on another device. On a laptop, we could show four images across, but on a mobile device, we could only show one image per row.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Flex Box Row Wrap</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Flex Box Row Wrap</p></figcaption></figure>
 
 The Chrome browser has tools to help you see how a web page would look on different devices. To activate the Responsive layout, open the Inspector and then click on "Toggle Device Toolbar."
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>How the Image Gallery Looks on a Mobile Device </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>How the Image Gallery Looks on a Mobile Device </p></figcaption></figure>
 
 ### Code for Row Wrap
 

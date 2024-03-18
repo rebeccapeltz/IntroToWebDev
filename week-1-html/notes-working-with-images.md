@@ -13,7 +13,7 @@ Images will render if the browser settings allow for it and the value supplied i
 <img src="http://www.wikipedia.com" alt="Dog Barking" >
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The alt attribute value is displayed when the image is not available or can't be rendered</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>The alt attribute value is displayed when the image is not available or can't be rendered</p></figcaption></figure>
 
 There are more attributes associated with the image tag.  We'll use the `height` and `width` attributes to solve a problem in the next section.
 
@@ -73,7 +73,7 @@ The term "Lorem Picsum" is a take-off from the term "Lorem Ipsum".   This term r
 
 If you just want to fill up a particular dimension, look at  [Fake Images Please](https://fakeimg.pl/).
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Using Fake Images Please: <a href="https://fakeimg.pl/600x400">https://fakeimg.pl/600x400</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Using Fake Images Please: <a href="https://fakeimg.pl/600x400">https://fakeimg.pl/600x400</a></p></figcaption></figure>
 
 ### Compressing Images
 
@@ -89,11 +89,13 @@ You can also look at [https://tinypng.com/](https://tinypng.com/) to compress im
 
 ### Uploading Images to Replit
 
-To upload a file to Replit, click on the 3 dots and select **Upload file**.  Navigate to the location on your local hard drive to select the file.  If you downloaded the file from an online source it will likely be located in the /Download directory.
+To upload a file to Replit, click on the three dots and select Upload file. Then, navigate to the location on your local hard drive to select the file. If you downloaded the file from an online source, it will likely be located in the /Download directory.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Upload file to replit.com</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Downloaded file will usually be in a /Download directory</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Nabiate to the Download Directory to find the file</p></figcaption></figure>
+
+Upload the file from the Download directory to replit..
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Uploaded File will be located in the directory that you were positioned in</p></figcaption></figure>
 
