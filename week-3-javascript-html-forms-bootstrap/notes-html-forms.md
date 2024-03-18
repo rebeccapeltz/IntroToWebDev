@@ -1,18 +1,18 @@
 # Notes: HTML Forms
 
-Form Elements
+### Form Elements
 
 
 
-Submitting the Form
+### Submitting the Form
 
 
 
-Processing Form Inputs
+### Processing Form Inputs
 
 
 
-Updating the DOM Based on Form Content
+### Updating the DOM Based on Form Content
 
 
 
