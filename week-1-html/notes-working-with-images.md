@@ -113,8 +113,6 @@ Replacing "Hello World" with an image tag.  By placing the `./` in front of the 
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Rendering the uploaded image form the images folder</p></figcaption></figure>
 
-### Setting Up the Image Src Attribute
-
 
 
 ### Resources
