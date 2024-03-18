@@ -16,7 +16,7 @@ Before we add CSS for these layouts, we'll look at two broad techniques for cont
 
 ### Layout for Image Gallery
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Layout With No Styling
 

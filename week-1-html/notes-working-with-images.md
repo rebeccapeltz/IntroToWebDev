@@ -1,5 +1,22 @@
 # Notes: Working With Images
 
+### Image Element
+
+The image element uses the img tag to embed an image on a web page.  There are 2 required attributes:
+
+* `src` is the path to the image and it can be a local path or a URL
+* `alt` is the text displayed if the browser settings do not allow for rendering images or the path to the image doesn't return an image.
+
+Images will render if the browser settings allow for it and the value supplied in `src` returns an image, but if they don't, the text supplied in the `alt` attribute will render instead.  In the example below, the src is pointing to a website that returns HTML an not text, so the alt attribute value is displayed instead.
+
+```
+<img src="http://www.wikipedia.com" alt="Dog Barking" >
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>The alt attribute value is displayed when the image is not available or can't be rendered</p></figcaption></figure>
+
+There are more attributes associated with the image tag.  We'll use the `height` and `width` attributes to solve a problemsnext.
+
 ### Properties of Images and Aspect Ratio
 
 The properties of images that web developers need to know to serve up the best-looking image are:
@@ -38,6 +55,10 @@ We'll see more ways to work with images.  Cropping an image to a desired height 
 
 
 
+### Compressing Images
+
+
+
 ### Uploading Images to Replit
 
 
@@ -46,4 +67,6 @@ We'll see more ways to work with images.  Cropping an image to a desired height 
 
 
 
-### Compressing Images
+### Resources
+
+[W3C Image Tag](https://www.w3schools.com/tags/tag\_img.asp)
