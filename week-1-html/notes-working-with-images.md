@@ -77,7 +77,15 @@ If you just want to fill up a particular dimension, look at  [Fake Images Please
 
 ### Compressing Images
 
+The images you download from the web are often huge.  The skewed image above that was downloaded from Pexels was 5759 x 6930, and the file size was 9.2 megabytes.  Large images load very slowly on a web page and this interferes with user experience.  Some users will leave a web page before it's loaded if it takes too long to load.
 
+One technique for optimizing image file size is image compression. Image compression can reduce an image's quality, so there can be a tradeoff between quality and time to load the image.   Compression algorithms have improved over the years.
+
+You can use online tools like  [https://imagecompressor.com/](https://imagecompressor.com/) to compress your images.  You start by uploading the image, and then after the tool compresses the image, you download it.   The image on the right is the compressed image (6.2 MB), and the image on the left is the original image (9.2MB).  The loss in quality is worth the faster load time.
+
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Compressed Image on the Left and Uncompressed image on the right</p></figcaption></figure>
+
+You can also look at [https://tinypng.com/](https://tinypng.com/) to compress images. It has a limit of 5 MB for the original image.
 
 ### Uploading Images to Replit
 
