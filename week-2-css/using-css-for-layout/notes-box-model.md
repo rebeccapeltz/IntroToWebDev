@@ -63,6 +63,45 @@ This example shows how margin and padding behave with block vs inline elements. 
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Inline Element Top Padding causes Overlap</p></figcaption></figure>
 
+### Centering Items on a Page Using Box Model
+
+Box model techniques rely on padding, margin, width, and height.  In the code below, we create a style for a class named `container`.  The element assigned to this class could be a child of the `body` component or another aspect on the web page.  By setting the width to  80%, we nest the children within the container's parent because it will only take up a portion of the parent's width.
+
+Setting the margin to auto is equivalent to setting `margin-right` and `margin-left` to auto.  This will center content horizontally within its parent.  Setting `text-align` to `center` will center all the block elements within the container.
+
+```css
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+```
+
+The code below demonstrates how to apply box model properties to achieve centered content.
+
+```html
+<head>
+<style>
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h1>This Header is Centered</h1>
+    <p>This element has is centered.</p>
+</div>
+</body>
+```
+
+The result is a page where the header and paragraph are both centered.
+
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Centering Content using Box Model Properties</p></figcaption></figure>
+
 ### Resources
 
 [MDN Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building\_blocks/The\_box\_model)

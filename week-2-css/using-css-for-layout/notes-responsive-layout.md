@@ -132,10 +132,10 @@ In this example, the images and titles are coded using div containers. There are
 
 We can view the pattern schematically.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Visualization of Code Pattern in Flex Column layout, we will render the images </p></figcaption></figure>
 
 ```css
-/* By default the images we will render in a single column. This 
+/* By default, we will render the images in a single column. This 
 is what we see in the mobile view. */
 .image-gallery {
     display: flex;

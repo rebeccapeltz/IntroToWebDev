@@ -71,8 +71,8 @@ There are 3 ways to add CSS to a web page:
 
 1. Create a separate file containing CSS and link it to the web page using the `link` HTML tag. In the example below, we would place the `link` tag in the `head` section of the document.  The file `style.css` would be located in the same directory as the HTML file containing the link tag.
 
-{% code fullWidth="true" %}
-```
+{% code fullWidth="false" %}
+```html
 <link href="style.css" rel="stylesheet" type="text/css" />
 ```
 {% endcode %}
@@ -92,7 +92,7 @@ There are 3 ways to add CSS to a web page:
 3. Add `style=""` attributes to an HTML element tag and style the element directly. In the example below, we are styling the color of the paragraph text to be light grey and the background color black.  No selectors are needed when assigning properties to an element using the style attribute.
 
 ```
-<p style="color: lightgreay;background-color:black;">Hello</p>
+<p style="color: lightgrey;background-color:black;">Hello</p>
 ```
 
 Developers have often coded the CSS in separate files and linked it to the web page. This allows for the reuse of CSS across many pages. However the closer the CSS code is to the HTML that is is styling, the more likely it will be applied. See the section on "Cascading" to learn more about this.
