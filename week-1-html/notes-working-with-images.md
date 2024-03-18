@@ -13,9 +13,9 @@ Images will render if the browser settings allow for it and the value supplied i
 <img src="http://www.wikipedia.com" alt="Dog Barking" >
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>The alt attribute value is displayed when the image is not available or can't be rendered</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>The alt attribute value is displayed when the image is not available or can't be rendered</p></figcaption></figure>
 
-There are more attributes associated with the image tag.  We'll use the `height` and `width` attributes to solve a problemsnext.
+There are more attributes associated with the image tag.  We'll use the `height` and `width` attributes to solve a problem in the next section.
 
 ### Properties of Images and Aspect Ratio
 
@@ -53,7 +53,27 @@ We'll see more ways to work with images.  Cropping an image to a desired height 
 
 ### How to get Free Images
 
+We'll be using images in our projects.  You can use your photos, but accessing free photos online is helpful if you want to collect various pictures on a given subject.   Here are three websites that will allow you to download pictures and use them without charge:
 
+* [Pexels](https://www.pexels.com/)
+* [Unsplash](https://unsplash.com/)
+* [Pixabay](https://pixabay.com/)
+
+If you are a photographer, you can upload your images to these websites and share your photos with others there.
+
+During development, when you want to focus on coding HTML and CSS, you can use an image service that provides random images in the dimensions you need for your page design.  Try [Lorem Picsum](https://picsum.photos/).  With Lorem Picsum, you add the width and height in the URL to get the exact dimensions you need.  For example, if you need a 600 x 400 image, you would use this URL for the `src` attribute.
+
+`https://picsum.photos/600/400`
+
+<figure><img src="https://picsum.photos/600/400" alt=""><figcaption><p>Random 600 x 400 Image from Lorem Picsum</p></figcaption></figure>
+
+The term "Lorem Picsum" is a take-off from the term "Lorem Ipsum".   This term refers to placeholder text and is used by designers and developers when they need to fill up a certain space on a web page with text.  There are many Lorem Ipsum generators.  Look at [https://loremipsum.io/](https://loremipsum.io/) to learn more about placeholder text and how to generate it.
+
+#### Placeholder Images
+
+If you just want to fill up a particular dimension, look at  [Fake Images Please](https://fakeimg.pl/).
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Using Fake Images Please: <a href="https://fakeimg.pl/600x400">https://fakeimg.pl/600x400</a></p></figcaption></figure>
 
 ### Compressing Images
 
@@ -63,7 +83,7 @@ We'll see more ways to work with images.  Cropping an image to a desired height 
 
 
 
-### Setting Up the Image HREF Attribute
+### Setting Up the Image Src Attribute
 
 
 
