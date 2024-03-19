@@ -100,7 +100,7 @@ console.log(age)
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Executing JavaScript in Chrome console using const desclaration results in error</p></figcaption></figure>
 
-The `+` (plus sign) used in the code above is an operator.  Operators provide a way to change data.  The `=` (equals) is a way to capture the changed data in memory and therby modify the state of the system.
+The `+` (plus sign) used in the code above is an operator.  Operators provide a way to change data.  The `=` (equals) is a way to capture the changed data in memory by modifying the system's state.
 
 
 
@@ -110,8 +110,28 @@ JavaScript provides the document.queryselector function to enable programmatic s
 
 If you select by ID there will be only one element found if the ID exists on the page, but if you select by class or type, there will be 0 or more elements found because there can be multiple elements with of the same type of using the same CSS class.
 
-```
-// Some cod
+```html
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .big {font-size: 80px;}
+  </style>
+</head>
+  
+<body>
+  <h1></h1>Hello world</h1>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <p id="unique">This is a unique paragraph.</p>
+  <p class="big">This is a big paragraph.</p>
+ 
+  <script>
+  
+  </script>
+</body>
 ```
 
 
