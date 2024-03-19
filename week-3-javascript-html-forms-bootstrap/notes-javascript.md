@@ -52,19 +52,21 @@ JavaScript is and event driven language.  This means that functionality is execu
 
 Events enable user interaction that changes data and the DOM.  In addition to reading, writing, updating, and deleting data, JavaScript can create, update and delete HTML Elements.  It can also apply CSS to elements that it selects. &#x20;
 
-### Variables
+### Variables and Operators
 
-Variables are found in most programming languages.  They are references to data.  Variables are created by declaring their name and value.  Variable declaration begins with a keyword that describes the variables accessbility on the page that is was declared on.
+Variables are found in most programming languages.  They are references to data.  Variables are created by declaring their name and value.  The variable declaration begins with a keyword that describes the variable's accessibility on the page that it was declared on.
 
 
 
-* `var` creates a variable that is function scoped, but if is declared outside of a function it becomes global scoped. The `var` declaration is not used much any more as it can lead to unexpected results. In general, global scoping isn't a good way to declare variable.  It's better to keep variable declaration close to the data they are holding.
-* `let` creates a variable that is block scoped. A block in JavaScript means the code that is contained within 2 curly braces {...}.  Values declare with `let` can be changed in the block.
-* `const` which is short for constant creates a variable that is block scoped.  It differs from `let` in that a `const` variable cannot be reassigned a value.
+* `var` It creates a function-scoped variable, but it becomes global-scoped if declared outside of a function. The `var` declaration is no longer used as it can lead to unexpected results. In general, global scoping isn't an excellent way to declare variables.  It's better to keep variable declarations close to their holding data.
+* `let` Creates a variable that is block-scoped. A block in JavaScript means the code contained within two curly braces {...}.  Values declare with `let` can be changed in the block.
+* `const` Which is short for constant and creates a variable that is block-scoped.  It differs from `let` in that a `const` variable cannot be reassigned as a value.
 
 The code below shows how to declare variables in JavaScript.  The `console.log` command will log information to the browser console.  Browser consoles are accessed by opening the Inspector.  The Chrome browser is accessed by clicking on **View | Developer | Inspect.**&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>View JavaScript Console in Chrome</p></figcaption></figure>
+
+We'll start with `var`, and then use let and const.  Both `var` and `let` examples will return the same value, but the code for `const` will fail because it does not allow reassignment.
 
 ```javascript
 // var declaration
@@ -74,9 +76,33 @@ age = 25;
 console.log(age)
 ```
 
-If we paste the code above into the JavaScript consold and hit return, the code will be executed and the value 25 will be returned.
+If we paste the code above into the JavaScript console and hit return, the code will be executed, and the value 25 will be returned.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Executing JavaScript in the Chrome Browser Console</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Executing JavaScript in the Chrome Browser Console using var declaration</p></figcaption></figure>
+
+```
+// let declaration
+let age = 21;
+let newAge = age + 1;
+age = 25;
+console.log(age)
+```
+
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Executing JavaScript in Chrome console using let declaration</p></figcaption></figure>
+
+```
+// const declaration
+const age = 21;
+const newAge = age + 1;
+age = 25;
+console.log(age)
+```
+
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Executing JavaScript in Chrome console using const desclaration results in error</p></figcaption></figure>
+
+The `+` (plus sign) used in the code above is an operator.  Operators provide a way to change data.  The `=` (equals) is a way to capture the changed data in memory and therby modify the state of the system.
+
+
 
 ### Selecting Elements in JavaScript
 
@@ -94,7 +120,7 @@ If you select by ID there will be only one element found if the ID exists on the
 
 
 
-### Variables and Operators
+### &#x20;
 
 
 
@@ -117,4 +143,6 @@ If you select by ID there will be only one element found if the ID exists on the
 ### Resources
 
 [W3 Script Tag Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
+[W3 Schools Arithmetic Operators](https://www.w3schools.com/js/js\_operators.asp)
 
