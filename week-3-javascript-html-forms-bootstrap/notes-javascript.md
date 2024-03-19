@@ -108,43 +108,34 @@ The `+` (plus sign) used in the code above is an operator.  Operators provide a 
 
 JavaScript provides the document.queryselector function to enable programmatic selection of DOM elements.  Similar to CSS, JavaScript can select by element type, class, or ID.  Once an element is selected, it can be modified. Modifying an element can mean changing it's CSS or attributes. &#x20;
 
-If you select by ID there will be only one element found if the ID exists on the page, but if you select by class or type, there will be 0 or more elements found because there can be multiple elements with of the same type of using the same CSS class.
+There are two commands used to select elements on a page: `querySelector` and `querySelectorAll`.   If we select element types, like all the paragraphs on a page, or classes, like all the elements with a class name "container",  we would use `querySelectorAll`.  If we only want the first element of a set of types or classes, or we are selected by ID, then we use `querySelector`.
+
+We can group elements by type, class, and ID from the HTML shown below.  The number of elements for each category is shown in parentheses.
+
+* header1 (1)
+* paragraph (4)
+* ID is "unique" (1)
+* class is "big" (2)
 
 ```html
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-    .big {font-size: 80px;}
-  </style>
-</head>
-  
 <body>
-  <h1></h1>Hello world</h1>
+  <h1>Hello world</h1>
   <p>This is a paragraph.</p>
   <p>This is another paragraph.</p>
-  <p id="unique">This is a unique paragraph.</p>
+  <p id="unique">This is a <span class="big">unique</span> paragraph.</p>
   <p class="big">This is a big paragraph.</p>
- 
-  <script>
-  
-  </script>
 </body>
 ```
 
+The `querySelector` returns an element, but the `querySelectorAll` returns a list of elements.  We can only apply changes to one element at a time.  Therefore, when we use `querySelectorAll` we have to loop through the list of element returns and make changes one at a time.
+
+Both `querySelector` and `querySelectorAll` are functions that are related to the DOM.  They are part of the `document` object.  We'll soon see how they are used to modify the DOM.
 
 
 
+<table><thead><tr><th width="410"></th><th width="317"></th></tr></thead><tbody><tr><td>select all paragraphs</td><td>document.querySelectorAll("p")</td></tr><tr><td>select header1</td><td>document.querySelector("h1")</td></tr><tr><td>select all elements with the "big" class specified</td><td>document.querySelectorAll(".big")</td></tr><tr><td>select element with ID equal to "unique"</td><td>document.querySelector("#unique")</td></tr><tr><td>select just the first paragraph found in the page</td><td>document.querySelector("p")</td></tr></tbody></table>
 
-
-
-### &#x20;
-
-
-
-
+Notice that when selecting a class, we preface the name with a period `.` . When we select based on an ID, we preface the ID with a hash `#` . This is similar to what we do in CSS. &#x20;
 
 ### Functions
 
