@@ -21,8 +21,6 @@
   * [Project: Styling Subject of Interest](week-2-css/project-style-subject-of-interest.md)
   * [Project: Image Gallery](week-2-css/project-image-gallery/README.md)
     * [Image Gallery Starter](week-2-css/project-image-gallery/image-gallery-starter.md)
-    * [By Row](week-2-css/project-image-gallery/by-row.md)
-    * [By Column](week-2-css/project-image-gallery/by-column.md)
 * [Week 3: JavaScript and HTML Forms](week-3-javascript-html-forms-bootstrap/README.md)
   * [Notes: JavaScript](week-3-javascript-html-forms-bootstrap/notes-javascript.md)
   * [Notes: HTML Forms](week-3-javascript-html-forms-bootstrap/notes-html-forms.md)
