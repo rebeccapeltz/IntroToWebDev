@@ -115,8 +115,22 @@ Replacing "Hello World" with an image tag.  By placing the `./` in front of the 
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Rendering the uploaded image form the images folder</p></figcaption></figure>
 
+### Image File Types
 
+The file extension on images reveals the format used for the image.  Image file formats are continually evolving.   The png and jpg (or jpeg) extensions are the most common and have been around for many years.  Different formats provide different features.  For example if your image needs to provide transparency, you will need a webp, avif, or png format. &#x20;
+
+<figure><img src="../.gitbook/assets/transparent.png" alt="" width="188"><figcaption><p>Transparent Image Example</p></figcaption></figure>
+
+
+
+If you need animation, you'll want to use a gif or avif.
+
+<figure><img src="../.gitbook/assets/freegif.gif" alt=""><figcaption><p>Git Example</p></figcaption></figure>
+
+Read about image file formats in the resources.
 
 ### Resources
 
 [W3C Image Tag](https://www.w3schools.com/tags/tag\_img.asp)
+
+[MDN Image File Formats](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image\_types)
