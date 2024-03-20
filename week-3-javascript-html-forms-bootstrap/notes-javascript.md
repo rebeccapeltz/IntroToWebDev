@@ -133,11 +133,40 @@ Both `querySelector` and `querySelectorAll` are functions that are related to th
 
 
 
-<table><thead><tr><th width="410"></th><th width="317"></th></tr></thead><tbody><tr><td>select all paragraphs</td><td>document.querySelectorAll("p")</td></tr><tr><td>select header1</td><td>document.querySelector("h1")</td></tr><tr><td>select all elements with the "big" class specified</td><td>document.querySelectorAll(".big")</td></tr><tr><td>select element with ID equal to "unique"</td><td>document.querySelector("#unique")</td></tr><tr><td>select just the first paragraph found in the page</td><td>document.querySelector("p")</td></tr></tbody></table>
+<table><thead><tr><th width="282">Selection Criteria</th><th width="297">Function Call</th><th width="245">Returned</th></tr></thead><tbody><tr><td>select all paragraphs</td><td>document.querySelectorAll("p")</td><td>list of 4 elements</td></tr><tr><td>select header1</td><td>document.querySelector("h1")</td><td>1 element</td></tr><tr><td>select all elements with the "big" class specified</td><td>document.querySelectorAll(".big")</td><td>list of 2 elements</td></tr><tr><td>select element with ID equal to "unique"</td><td>document.querySelector("#unique")</td><td>1 element</td></tr><tr><td>select just the first paragraph found in the page</td><td>document.querySelector("p")</td><td>1 element</td></tr></tbody></table>
 
-Notice that when selecting a class, we preface the name with a period `.` . When we select based on an ID, we preface the ID with a hash `#` . This is similar to what we do in CSS. &#x20;
+Notice that when selecting a class, we preface the name with a period `.` . When we select based on an ID, we preface the ID with a hash `#` . This is similar to what we do in CSS.  When Returned is a list of elements, we need to loop through the list to apply changes one at a time.
+
+We've seen that querySelector and querySelectorAll are functions of the document object. Let's see how to write JavaScript Functions.
+
+###
 
 ### Functions
+
+JavaScript functions are blocks of code that perform a task.  They can receive input parameters and return output values.   To work with functions, we need to understand data types. &#x20;
+
+#### Data Types
+
+JavaScript data types are listed below.
+
+* String
+* Number
+* Bigint
+* Boolean
+* Undefined
+* Null
+* Symbol
+* Object
+
+
+
+<table><thead><tr><th width="337">Data Type</th><th>Example</th></tr></thead><tbody><tr><td>String*</td><td>"hello", "my dog's name is Fluff",  "I am 5 years old"</td></tr><tr><td>Number*</td><td>1, .5, 3.1415, 10000, -1</td></tr><tr><td>Bigint (needed for very large numbers) </td><td>1234567890123456789012345n</td></tr><tr><td>Boolean*</td><td>true, false</td></tr><tr><td>Undefined*</td><td>declared but not initialized</td></tr><tr><td>Null</td><td>null</td></tr><tr><td>Symbol</td><td>MY_CONSTANT</td></tr><tr><td>Object</td><td>{name: "Fluff", age: 7}</td></tr></tbody></table>
+
+&#x20;\*We'll be focusing on the String, Number, Boolean and Undefined types
+
+
+
+
 
 
 
