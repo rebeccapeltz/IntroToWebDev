@@ -200,13 +200,59 @@ When a page loads, the browser parses the HTML to figure out what needs to be do
 
 #### Apply Changes on the Window Load Event
 
+We'll be loading the HTML specified in an earlier section.
 
+```html
+ <h1>Hello world</h1>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <p id="unique">This is a <span class="big">unique</span> paragraph.</p>
+  <p class="big">This is a big paragraph.</p>
+```
 
+We need to listen for the completion of the page load and then call a function to modify the page.  The listener is set up below.  The window object has an addEventListener function that takes two parameters: 1) an event string and 2) a function.  The function always receives an event parameter from the event itself.
 
+```javascript
+ window.addEventListener('load', function (event) {
+      // execute code here
+      })
+    });
+```
 
+The code inside the listener function will not be executed until the function receives notification that the event has occurred.
 
+The code below shows the listener wrapped around the instructions to be executed on load.
 
-
+```javascript
+  // Wait for the window to complete loading
+  window.addEventListener('load', function () {
+      // Change the content of h1 from "Hello World" to "Hello Universe"
+      document.querySelector("h1").innerHTML = "Hello Universe";
+      
+      // Create a local variable that references the element with an ID of unique
+      let uniqueEl = document.querySelector("#unique");
+      // Change the background color of the unique element to yellow and its font
+      // family to sans-serif
+      uniqueEl.style.backgroundColor = "yellow";
+      uniqueEl.style.fontFamily = "sans-serif";
+      
+      // Select all paragraphs and use the forEach function provided by list objects 
+      // to iterate through all the paragraphs and change their background color to 
+      // light green
+      document.querySelectorAll("p").forEach(function (p) {
+        p.style.backgroundColor = "lightgreen";
+      });
+     
+      // Select all elements that have the class "big" and use the forEach 
+      // function provided by list objects to set their font family to 
+      // "sans-serif and their font size to "50px"
+      let bigEl = document.querySelectorAll(".big");
+      bigEl.forEach(el=>{
+        el.style.fontFamily = "sans-serif";
+        el.style.fontSize = "50px";
+      })
+    });Some code
+```
 
 
 
