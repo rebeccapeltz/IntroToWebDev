@@ -92,17 +92,73 @@ alert("select:" + selectedSize);
 
 ### Label Element
 
+The `label` tag renders a label element that provides a caption for an input.  The label is not used to store or extract data from the form.  It helps identify form elements to the user.  It aids accessibility as screen readers can use it to provide meaning to the input.
 
+In the example below, the ID of the input is `bgcolor`.  The label is linked to an input using its for attribute whose value is the input's id.  In the examples above, inputs were identified by span and div, but this does not provide meaning.  The label is an inline element.  You can style it with CSS.
 
-### Field Set
+```html
+<label for="bgcolor">Background Color:</label><br>
+<input type="text" id="bgcolor" value="black"><br>
+```
 
-###
+### Field Set and Legend
 
+The `fieldset` is used to group related items in a form.  Like the label, It aids in accessibility. The fieldset can contain any time of input element.  In the example below it is used to contain radio button nut preference.
 
+```html
+ <fieldset style="display:inline-block;width:30%;">
+  <legend>Nut Preference</legend>
+   <div>
+     <input type="radio" id="almond" name="nut" value="almond" />
+     <label for="almond">Almond</label>
+   </div>
+
+   <div>
+     <input type="radio" id="walnut" name="nut" value="walnut" />
+     <label for="walnut">Walnut</label>
+   </div>
+   <div>
+     <input type="radio" id="peanut" name="nut" value="peanut" />
+     <label for="peanut">Peanut</label>
+   </div>
+ </fieldset>
+```
+
+The code renders a list of radio buttons within a rectangle.&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Fieldset with Legend containing radio buttons</p></figcaption></figure>
 
 ### Processing Form Inputs in Form Event Handler
 
+Processing the form data begins when the user clicks a button or other clickable element.  In the examples we've been working with the clickable element is and `input` with type `button`.
 
+```html
+ <input id="update" type="button" value="Update">
+```
+
+The click event handlers are triggered when the user clicks on the Update button, which has an ID of `update`.  Inside the handler function, instructions to select inputs and extract data are executed.  Like the window **"load"** event the mouse **"click"** event is the first parameter of the `addEventListener` function.
+
+```javascript
+document.querySelector("#update").addEventListener("click", event => {
+    document.querySelectorAll("input").forEach(function (inputData) {
+      let inputValue = inputData.value;
+      let inputType = inputData.type;
+      console.log(inputType, inputValue);
+    });
+
+    let radioSize = "";
+    document.querySelectorAll("[name='size']").forEach(function (size) {
+      if (size.checked) {
+          radioSize = size.value;
+        alert("radio:" + radioSize);
+      }
+    });
+
+    let selectedSizeElement = document.querySelector("#sizeSelector");
+      selectedSize = selectedSizeElement.options[selectedSizeElement.selectedIndex].text;
+   alert("select:" + selectedSize);
+})
+```
 
 ### Updating the DOM Based on Form Content
 

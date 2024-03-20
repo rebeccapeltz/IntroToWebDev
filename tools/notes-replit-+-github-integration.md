@@ -32,7 +32,7 @@ Check the "Create initial commit with all changes" or you will be prompted later
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Enter Values for Remote, Repository Name, and Select Default Replit User or Authorize New User</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Enter Values for Remote, Repository Name, and Select Default Replit User or Authorize New User</p></figcaption></figure>
 
 </div>
 
