@@ -143,11 +143,15 @@ Notice that when selecting a class, we preface the name with a period `.` . When
 
 ### Event Handling
 
-###
+### apply changes on load event
 
 
 
-### Modifying Style in JavaScript
+DOMContentLoaded
+
+
+
+#### Modifying Style in JavaScript
 
 
 
