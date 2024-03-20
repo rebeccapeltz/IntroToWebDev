@@ -64,7 +64,7 @@ Variables are found in most programming languages.  They are references to data.
 
 The code below shows how to declare variables in JavaScript.  The `console.log` command will log information to the browser console.  Browser consoles are accessed by opening the Inspector.  The Chrome browser is accessed by clicking on **View | Developer | Inspect.**&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>View JavaScript Console in Chrome</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>View JavaScript Console in Chrome</p></figcaption></figure>
 
 We'll start with `var`, and then use let and const.  Both `var` and `let` examples will return the same value, but the code for `const` will fail because it does not allow reassignment.
 
@@ -164,11 +164,33 @@ JavaScript data types are listed below.
 
 &#x20;\*We'll be focusing on the String, Number, Boolean and Undefined types
 
+#### Using String and Number Types in a Function
 
+This JavaScript function uses String and Number types to build a new string.  The function `introduce` has two **parameters**: `name` and `age`.  It uses String concatenation (adding strings and numbers  with the `+` operator to create a new string) to create and return the introduction String. The function name calls the function and passes in two values, which are referred to as **arguments**.  Think of the values passed to a function as arguments and the values received by the function as **parameters**.
 
+In the central part of the script, we initialize the subject variable with a let declaration that references the value returned by the function.  For the second call, we don't use `let` in the declaration, because it has already been used in the first declaration, we reassign the reference to point to a new value returned by the `introduce` function based on new arguments for name and age.
 
+The alert function is a built-in JavaScript function that pops up a small window containing the string passed to it.  Using the alert function is helpful in the same way that console.log is: it shows the state of a variable at a given point in the code.
 
+```
+ <script>
+    function introduce(name, age) {
+      const whoAmI = "My name is" + name + " and I am " + age + " years old." 
+      return whoAmI;
+    }
+    let subject = introduce("Fluff",7);
+    alert (subject);
+    subject = introduce("Spot",3)
+    alert (subject2);
+    
+  </script>
+```
 
+Executing the code in a Replit application, we see the alert looks like this:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Alert the value returned by the introduce function and stored in the subject variable</p></figcaption></figure>
+
+The alert is a popup and the OK button will close it.
 
 ### Event Handling
 
