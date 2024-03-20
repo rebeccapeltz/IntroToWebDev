@@ -227,12 +227,14 @@ The code below shows the listener wrapped around the instructions to be executed
   // Wait for the window to complete loading
   window.addEventListener('load', function () {
       // Change the content of h1 from "Hello World" to "Hello Universe"
+      // Change content by setting innerHTML to a string value
       document.querySelector("h1").innerHTML = "Hello Universe";
       
       // Create a local variable that references the element with an ID of unique
       let uniqueEl = document.querySelector("#unique");
       // Change the background color of the unique element to yellow and its font
       // family to sans-serif
+      // Change style by setting the style.<property> to a string value
       uniqueEl.style.backgroundColor = "yellow";
       uniqueEl.style.fontFamily = "sans-serif";
       
@@ -251,20 +253,38 @@ The code below shows the listener wrapped around the instructions to be executed
         el.style.fontFamily = "sans-serif";
         el.style.fontSize = "50px";
       })
-    });Some code
+    });
 ```
 
+In the code above, we can see how to deal with selectors that return multiple elements. When multiple elements are selected, the return type is a list object. We see that the list object provides a function `forEach`. The `forEach` function pulls out one list element at a time in sequence and passes it to a new function, where the single element can be modified.
 
+Functions don't always have names like the `introduce` function we looked at.  Functions without names are called anonymous functions.  Functions also don't always return values.  In the `forEach` function, we instruct an anonymous function to be called with a parameter taken from the list.  Inside the anonymous function, we provide instructions that take effect immediately.  There is no need to return a value.
 
-####
+When a selector returns a single value, we can operate on it immediately without having to use `forEach.`
 
+The code changes content and style.  JavaScript changes style by accessing the elements style property and assigning a string value.  In the code above, we change the style for `backgroundColor`, `fontFamily`, and `fontSize`.  The properties in CSS are changed to JavaScript properties by removing the `-` (dash) and setting the word following the dash to upper case.
 
+* background-color -> backgroundColor
+* font-family -> fontFamily
+* font-size -> fontSize
+
+Before running the window `load` function, the page looked like this:
+
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Web Page before calling window.load event handler</p></figcaption></figure>
+
+After running the window `load` function, the page looks like this:
+
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>After executing the window load event handler</p></figcaption></figure>
+
+The header1 content has changed. Three of the four paragraphs have a green background, and the paragraph with the unique ID has a yellow background. Where elements were assigned the "big" class, the font size is now large and sans-serif.&#x20;
 
 ### Resources
 
 [W3 Script Tag Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
 [W3 Schools Arithmetic Operators](https://www.w3schools.com/js/js\_operators.asp)
+
+[W3 Schools Style Properties in JavaScript](https://www.w3schools.com/jsref/dom\_obj\_style.asp)
 
 [MDN Window Load Event](https://developer.mozilla.org/en-US/docs/Web/API/Window/load\_event)
 
