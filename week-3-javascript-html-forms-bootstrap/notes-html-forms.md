@@ -54,18 +54,41 @@ The code below renders a set of radio buttons that allow the user to choose a `s
 To get the value of `size` we look for which item is checked.
 
 ```javascript
-let selectedSize = "";
+let radioSize = "";
   document.querySelectorAll("[name='size']").forEach(function (size) {
     if (size.checked) {
-      selectedSize = size.value;
-      alert(selectedSize);
+        radioSize = size.value;
+      alert("radio:" + radioSize);
     }
-  });
+});
 ```
 
 ### Select Element
 
+The Select element presents a drop-down list of options for the user.  The code below will render a `select` element that allows the user to choose a size.
 
+```html
+<div>Select a Size:</div><br>
+<select id="sizeSelector">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+</select><br><br>
+```
+
+
+
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
+#### Retrieve Data From Select Element
+
+The code below demonstrates retrieving the data from a select element.
+
+```javascript
+let selectedSizeElement = document.querySelector("#sizeSelector");
+selectedSize = selectedSizeElement.options[selectedSizeElement.selectedIndex].text;
+alert("select:" + selectedSize);
+```
 
 ### Label Element
 
