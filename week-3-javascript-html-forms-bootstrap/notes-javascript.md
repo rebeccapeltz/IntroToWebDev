@@ -194,15 +194,23 @@ The alert is a popup and the OK button will close it.
 
 ### Event Handling
 
-### apply changes on load event
+The browser triggers events based on user interaction and web page loading.  Functions that respond to these events are called Event Handlers.   Let's look at code for an event handler that modifies page style and content based on the window loading, completing the page `load`.  Executing a function on load is an everyday use case.
+
+When a page loads, the browser parses the HTML to figure out what needs to be done.  If there are link tags for CSS or script tags for JavaScript files, the browsers will request those, and the element tags will render the content.  We can listen for the load event to be completed and then execute JavaScript to modify the loaded page.
+
+#### Apply Changes on the Window Load Event
 
 
 
-DOMContentLoaded
 
 
 
-#### Modifying Style in JavaScript
+
+
+
+
+
+####
 
 
 
@@ -211,4 +219,6 @@ DOMContentLoaded
 [W3 Script Tag Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
 [W3 Schools Arithmetic Operators](https://www.w3schools.com/js/js\_operators.asp)
+
+[MDN Window Load Event](https://developer.mozilla.org/en-US/docs/Web/API/Window/load\_event)
 
