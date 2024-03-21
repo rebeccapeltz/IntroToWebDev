@@ -103,7 +103,7 @@ In the example below, the ID of the input is `bgcolor`.  The label is linked to 
 
 ### Field Set and Legend
 
-The `fieldset` is used to group related items in a form.  Like the label, It aids in accessibility. The fieldset can contain any time of input element.  In the example below it is used to contain radio button nut preference.
+The `fieldset` is used to group related items in a form.  Like the label, It aids in accessibility. The fieldset can contain any input element at any time.  In the example below, it is used to indicate radio button nut preference.
 
 ```html
  <fieldset style="display:inline-block;width:30%;">
@@ -126,7 +126,7 @@ The `fieldset` is used to group related items in a form.  Like the label, It aid
 
 The code renders a list of radio buttons within a rectangle.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Fieldset with Legend containing radio buttons</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Fieldset with Legend containing radio buttons</p></figcaption></figure>
 
 ### Processing Form Inputs in Form Event Handler
 
@@ -136,7 +136,7 @@ Processing the form data begins when the user clicks a button or other clickable
  <input id="update" type="button" value="Update">
 ```
 
-The click event handlers are triggered when the user clicks on the Update button, which has an ID of `update`.  Inside the handler function, instructions to select inputs and extract data are executed.  Like the window **"load"** event the mouse **"click"** event is the first parameter of the `addEventListener` function.
+The click event handlers are triggered when the user clicks on the Update button, which has an ID of `update`.  Instructions to select inputs and extract data are executed inside the handler function.  Like the window **"load"** event, the mouse "click" event is the function's first parameter.
 
 ```javascript
 document.querySelector("#update").addEventListener("click", event => {
@@ -162,11 +162,58 @@ document.querySelector("#update").addEventListener("click", event => {
 
 ### Updating the DOM Based on Form Content
 
+We've looked at updating the DOM after the Windows `load` event is triggered.  We can update the DOM after data has been entered in a form and a `click` event is triggered.
 
+In this example, we allow the user to choose the font they want to see on the page they are viewing.
+
+```html
+<body>
+  <h1>Manage Font Family</h1>
+  <form>
+    <fieldset>
+      <legend>Select a font family:</legend>
+      <div>
+        <input type="radio" id="arialfont" name="fontFamily" value="Arial, sans-serif" checked />
+        <label for="arialfont">Arial, sans-serif</label>
+      </div>
+      <div>
+        <input type="radio" id="gilsans" name="fontFamily" value="Gill Sans, sans-serif" />
+        <label for="gilsans">Gill Sans, sans-serif</label>
+      </div>
+      <div>
+        <input type="radio" id="times" name="fontFamily" value="Times, Times New Roman, serif" />
+        <label for="times">Times, Times New Roman, serif</label>
+      </div>
+    </fieldset>
+    <br>
+    <input id="update" type="button" value="Update"><br>
+  </form>
+  <script>
+  document.querySelector("#update").addEventListener("click", event => {
+    document.querySelectorAll("[name='fontFamily']").forEach(function (fontFamily) {
+      if (fontFamily.checked) {
+        document.body.style.fontFamily = fontFamily.value;
+      }
+    });
+  });
+  </script
+```
+
+We can start with a default browser font family and then use the chosen one after the update.
+
+On the left, we see the default font family, and on the right, after clicking on the update button, we see the Gil Sans font family.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Changing the Font Family base on Form InputInstructions to select inputs and extract data are executed inside the handler function</p></figcaption></figure>
 
 ### Resources
 
 [W3 Select Element](https://www.w3schools.com/tags/tag\_select.asp)
 
 [W3 Input Element](https://www.w3schools.com/tags/tag\_input.asp)
+
+[W3 Fieldset Element](https://www.w3schools.com/tags/tag\_fieldset.asp)
+
+[MDN Introduction to Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building\_blocks/Events)
+
+
 
