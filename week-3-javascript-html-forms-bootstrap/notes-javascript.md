@@ -196,7 +196,11 @@ The alert is a popup and the OK button will close it.
 
 ### Interpolation vs Concatenation
 
-In the code above, we used concatenation to create a string from another string and a number. &#x20;
+
+
+#### Concatenation
+
+In the code in the previous section, we used concatenation to create a string from another string and a number. &#x20;
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>let smallInteger = 7;
 </strong><strong>let smallString = "small: " + smallInteger;
@@ -205,6 +209,10 @@ In the code above, we used concatenation to create a string from another string 
 </strong></code></pre>
 
 We use the plus operator (+) to concatenate a variable to a string.  We can use concatenation with string, number, and boolean variables, and the result will be a string.
+
+#### Interpolation
+
+
 
 ### Event Handling
 
