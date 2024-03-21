@@ -192,6 +192,20 @@ Executing the code in a Replit application, we see the alert looks like this:
 
 The alert is a popup and the OK button will close it.
 
+
+
+### Interpolation vs Concatenation
+
+In the code above, we used concatenation to create a string from another string and a number. &#x20;
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>let smallInteger = 7;
+</strong><strong>let smallString = "small: " + smallInteger;
+</strong><strong>console.log(smallInteger);
+</strong><strong>// expected logged value: "small: 7"
+</strong></code></pre>
+
+We use the plus operator (+) to concatenate a variable to a string.  We can use concatenation with string, number, and boolean variables, and the result will be a string.
+
 ### Event Handling
 
 The browser triggers events based on user interaction and web page loading.  Functions that respond to these events are called Event Handlers.   Let's look at code for an event handler that modifies page style and content based on the window loading, completing the page `load`.  Executing a function on load is an everyday use case.
