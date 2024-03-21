@@ -19,4 +19,4 @@ The HTML and CSS for this project have already been written.  To complete the pr
 * Process the Radio button elements using querySelectorAll and the forEach method to find the checked button and then apply the user's font family style choice.  If none of the buttons are checked, don't make any changes.
 * (optional) If the user doesn't select any changes on the form, you can use the `alert` function to let them know that nothing will be changed.
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption><p>Process the User Input for Page Style</p></figcaption></figure>
