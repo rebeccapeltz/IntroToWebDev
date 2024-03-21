@@ -12,7 +12,7 @@ The HTML and CSS for this project have already been written.  To complete the pr
 
 [https://www.beckypeltz.me/js-event-handling/update-style](https://www.beckypeltz.me/js-event-handling/update-style/)
 
-* Create a Replit project and import the GitHub project [https://www.beckypeltz.me/js-event-handling](https://www.beckypeltz.me/js-event-handling/update-style/) into the Replit project.
+* Create a Replit project and import the GitHub project [https://github.com/rebeccapeltz/js-event-handling/tree/main](https://github.com/rebeccapeltz/js-event-handling/tree/main) into the Replit project.
 * Add a JavaScript event handler to the update-style script.js file. The event handler is triggered by clicking on the Update Button.
 * Use query selectors to get the data entered by the User.
 * If the User didn't choose a Select element, the result will be an empty string `""`. Test for the empty string, and if it is false, set the style requested by the user. &#x20;
