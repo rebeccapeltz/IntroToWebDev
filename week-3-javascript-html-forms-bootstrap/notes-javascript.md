@@ -196,8 +196,6 @@ The alert is a popup and the OK button will close it.
 
 ### Interpolation vs Concatenation
 
-
-
 #### Concatenation
 
 In the code in the previous section, we used concatenation to create a string from another string and a number. &#x20;
@@ -208,11 +206,42 @@ In the code in the previous section, we used concatenation to create a string fr
 </strong><strong>// expected logged value: "small: 7"
 </strong></code></pre>
 
-We use the plus operator (+) to concatenate a variable to a string.  We can use concatenation with string, number, and boolean variables, and the result will be a string.
+We use the plus operator (`+`) to concatenate a variable to a string.  We can use concatenation with string, number, and boolean variables, and the result will be a string.
 
 #### Interpolation
 
+Interpolation allows developers to insert variables into an existing string.  The existing string is created using the backtick character (`` ` ``) instead of the single (`')` or double (`"`) quote.  The backtick characters are located on the top of the keyboard, just to the left of the number 1.  To insert a variable values, we enclose the variable in dollar sign curly braces (`${...}`).
 
+The code below shows how to insert a variable into the interpolation string to achieve the same result as the above concatenation code.&#x20;
+
+```javascript
+let smallInteger = 7;
+let smallString = `small: ${smallInteger}`;
+
+console.log(smallString);
+// expected logged value: "small: 7"
+```
+
+Here's a sample that uses multiple variables in a larger string.  Notice that I can call functions inside the parameter slots. In this example, I am formatting numbers.  The interpolation string can accept different data types and functions that act on data.
+
+<pre class="language-javascript"><code class="lang-javascript">let year = 2024;
+let comp = 16438.77;
+<strong>let compRise = 0.42;
+</strong>let openingPrice = 16517.241;
+<strong>const summary = `NASDAQ Composite Index (COMP) ${year}: The COMP index is 
+</strong><strong>currently at ${comp.toLocaleString('en-US')} points, with a ${compRise.toFixed(2)}% rise. The intraday low matches 
+</strong><strong>the current value, and the opening price was ${openingPrice.toLocaleString('en-US')}.`;
+</strong><strong>
+</strong><strong>console.log(summary);
+</strong><strong>// expected logged value:
+</strong><strong>// NASDAQ Composite Index (COMP): The COMP index is 
+</strong>// currently at 16,438.77 points, with a 0.42% rise. The intraday low matches 
+// the current value, and the opening price was 16,517.241.
+</code></pre>
+
+#### Which Method Should We Use?
+
+The **interpolation** method is the newer method for creating strings with variable data, and it is the preferred method.  In the concatenation example, we had to add a space after `small:` . It is more natural to set up a template string for interpolation and then fill in variables than to try to add spacing and punctuation one variable at a time.
 
 ### Event Handling
 
