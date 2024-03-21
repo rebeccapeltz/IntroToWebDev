@@ -25,7 +25,7 @@
   * [Notes: JavaScript](week-3-javascript-html-forms-bootstrap/notes-javascript.md)
   * [Notes: Processing HTML Forms with JavaScript](week-3-javascript-and-html-forms/notes-processing-html-forms-with-javascript.md)
   * [Project: Dynamic Style Change](week-3-javascript-and-html-forms/project-dynamic-style-change.md)
-  * [Project: Madlibs](week-3-javascript-and-html-forms/project-madlibs.md)
+  * [Project: Mad Libs](week-3-javascript-and-html-forms/project-mad-libs.md)
 * [Week 4: Web Site Using Bootstrap](week-4-web-site/README.md)
   * [Notes: Bootstrap](week-4-web-site-using-bootstrap/notes-bootstrap.md)
   * [Project: Bootstrap Website](week-4-web-site/project-bootstrap-website.md)

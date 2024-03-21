@@ -6,13 +6,13 @@ The HTML and CSS for this project have already been written.  To complete the pr
 
 * Locate the code for this project in GitHub:
 
-[ ](https://github.com/rebeccapeltz/js-event-handling/blob/main/update-style/index.html)[https://github.com/rebeccapeltz/js-event-handling/blob/main/update-style/index.html](https://github.com/rebeccapeltz/js-event-handling/blob/main/update-style/index.html)
+[ ](https://github.com/rebeccapeltz/js-event-handling/blob/main/update-style/index.html)[https://github.com/rebeccapeltz/js-event-handling](https://github.com/rebeccapeltz/js-event-handling/blob/main/update-style/index.html)
 
 * Look at the rendered page in GithHub:&#x20;
 
-[https://www.beckypeltz.me/js-event-handling/update-style/](https://www.beckypeltz.me/js-event-handling/update-style/)
+[https://www.beckypeltz.me/js-event-handling/update-style](https://www.beckypeltz.me/js-event-handling/update-style/)
 
-* Create a Replit project and copy the HTML code into an HTML file.
+* Create a Replit project and import the GitHub project [https://www.beckypeltz.me/js-event-handling](https://www.beckypeltz.me/js-event-handling/update-style/) into the Replit project.
 * Add a JavaScript event handler triggered by clicking on the Update Button.
 * Use query selectors to get the data entered by the User.
 * If the User didn't choose a Select element, the result will be an empty string `""`. Test for the empty string, and if it is false, set the style requested by the user. &#x20;
