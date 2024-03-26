@@ -27,5 +27,6 @@
   * [Project: Dynamic Style Change](week-3-javascript-and-html-forms/project-dynamic-style-change.md)
   * [Project: Mad Libs](week-3-javascript-and-html-forms/project-mad-libs.md)
 * [Week 4: Web Site Using Bootstrap](week-4-web-site/README.md)
+  * [Notes: Anatomy of a URL](week-4-web-site-using-bootstrap/notes-anatomy-of-a-url.md)
   * [Notes: Bootstrap](week-4-web-site-using-bootstrap/notes-bootstrap.md)
   * [Project: Bootstrap Website](week-4-web-site/project-bootstrap-website.md)
