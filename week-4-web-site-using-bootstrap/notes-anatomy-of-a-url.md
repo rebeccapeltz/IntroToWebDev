@@ -1,6 +1,6 @@
 # Notes: Anatomy of a URL
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Noting the parts of a URL</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Noting the parts of a URL</p></figcaption></figure>
 
 ### Universal Resource Locator
 
