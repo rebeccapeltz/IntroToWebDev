@@ -78,7 +78,7 @@ console.log(age)
 
 If we paste the code above into the JavaScript console and hit return, the code will be executed, and the value 25 will be returned.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Executing JavaScript in the Chrome Browser Console using var declaration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Executing JavaScript in the Chrome Browser Console using var declaration</p></figcaption></figure>
 
 ```
 // let declaration

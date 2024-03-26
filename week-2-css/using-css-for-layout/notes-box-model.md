@@ -61,7 +61,7 @@ Hover over one div in the browser to see how the space is allocated.  The tan co
 
 This example shows how margin and padding behave with block vs inline elements.  The block elements are outlined in green.  The inline element follows the second block element.  Notice in the image that the block element has a margin applied to the top, right, bottom, and left (both horizontal and vertical) directions.  The inline span element has a margin specified for the top and right, but it is only applied to the right (horizontal).  Padding is applied to all sides of each element.  For the block elements, it never overlaps, but for the inline element, it can overlap.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Inline Element Top Padding causes Overlap</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Inline Element Top Padding causes Overlap</p></figcaption></figure>
 
 ### Centering Content on a Page Using Box Model
 

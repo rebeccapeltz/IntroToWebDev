@@ -1,6 +1,6 @@
 # Tools
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Tools are important.  Image from rawpixel.com.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Tools are important.  Image from rawpixel.com.</p></figcaption></figure>
 
 Web developers use tools. They are digital tools, just as a hammer and saw are to a carpenter. Web developers have access to hundreds, if not thousands, of tools that can help them be more efficient, innovative, and technically accurate.
 
