@@ -16,11 +16,11 @@ The table below summarizes the width and height of different device screens.  Th
 
 When creating layouts, we must consider how they would appear on another device. On a laptop, we could show four images across, but on a mobile device, we could only show one image per row.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Flex Box Row Wrap</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Flex Box Row Wrap</p></figcaption></figure>
 
 The Chrome browser has tools to help you see how a web page would look on different devices. To activate the Responsive layout, open the Inspector and then click on "Toggle Device Toolbar."
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>How the Image Gallery Looks on a Mobile Device </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>How the Image Gallery Looks on a Mobile Device </p></figcaption></figure>
 
 ### Code for Row Wrap
 
@@ -81,7 +81,7 @@ ul {
 
 We can view the pattern for a gallery schematically composed of list items.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Visual representation of code pattern using an unordered list for the image gallery</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Visual representation of code pattern using an unordered list for the image gallery</p></figcaption></figure>
 
 
 
@@ -138,7 +138,7 @@ In this example, the images and titles are coded using div containers. There are
 
 We can view the pattern schematically.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Visualization of Code Pattern in Flex Column layout, we will render the images </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Visualization of Code Pattern in Flex Column layout, we will render the images </p></figcaption></figure>
 
 
 

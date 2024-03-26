@@ -126,7 +126,7 @@ The `fieldset` is used to group related items in a form.  Like the label, It aid
 
 The code renders a list of radio buttons within a rectangle.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Fieldset with Legend containing radio buttons</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Fieldset with Legend containing radio buttons</p></figcaption></figure>
 
 ### Processing Form Inputs in Form Event Handler
 
@@ -203,7 +203,7 @@ We can start with a default browser font family and then use the chosen one afte
 
 On the left, we see the default font family, and on the right, after clicking on the update button, we see the Gil Sans font family.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Changing the Font Family base on Form InputInstructions to select inputs and extract data are executed inside the handler function</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Changing the Font Family base on Form InputInstructions to select inputs and extract data are executed inside the handler function</p></figcaption></figure>
 
 ### Resources
 

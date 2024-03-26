@@ -11,7 +11,7 @@ In addition to HTML and CSS, the JavaScript file contains the story template, an
 * Alert the user if they don't enter data in all fields.
 * (Optional) Insert four of the underline characters (`____)` for missing words.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Madlib</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Madlib</p></figcaption></figure>
 
 
 
