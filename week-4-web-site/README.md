@@ -1,6 +1,12 @@
 # Week 4: Web Site Using Bootstrap
 
-At this point, we've developed skills for crafting web pages using HTML, CSS, and JavaScript. The next step is to put together a set of pages that comprise a full website. &#x20;
+
+
+
+
+
+
+At this point, we've developed skills for crafting web pages using HTML, CSS, and JavaScript. The next step is to assemble a set of pages comprising a full website. &#x20;
 
 ### What is a Web Page Compared to a Web Site?
 
@@ -14,11 +20,8 @@ Understanding the anatomy of a URL leads to understanding how the internet works
 
 ### BootStrap Framework
 
-While it's possible to build a website by coding individual pages with HTML, JavaScript, and CSS to build out a website, there is redundancy in this code.   The inefficiency in writing code for multipage websites has led developers to use frameworks.  If you are working with a team to build a large website, everyone must be consistent in setting up CSS to share it among the pages.  This leads to more consistency and makes it easier to correct errors.
+While it's possible to build a website by coding individual pages with HTML, JavaScript, and CSS to build out a website, there is redundancy in this code.   The inefficiency in writing code for multipage websites has led developers to use frameworks.  If you work with a team to build a large website, everyone must consistently set up CSS to share it among the pages.  This leads to more consistency and makes it easier to correct errors.
 
 The final project will involve creating a website using the [Bootstrap v5.3 framework](https://getbootstrap.com/).  We'll also gain valuable experience by working with a Bootstrap starter website.  We'll start with a template from [Start Bootstrap](https://startbootstrap.com/) instead of starting the website from scratch.  While this might make it easier because we don't have to write all the code ourselves, it challenges us to understand existing code and then add new code to it to fulfill requirements.  A lot of what web developers build on existing websites.
 
-We'll be using the Small Business Template.  This is a good time to start thinking about content for a small business website.  Like the "Subject of Interest" web page, we'll need to supply images, text, and URLs that characterize the business for which we are creating the website.
-
-
-
+We'll be using the Small Business Template.  This is an excellent time to start thinking about content for a small business website.  Like the "Subject of Interest" web page, we'll need to supply images, text, and URLs that characterize the business for which we are creating the website.
