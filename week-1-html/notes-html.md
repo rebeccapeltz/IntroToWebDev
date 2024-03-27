@@ -1,20 +1,20 @@
 # Notes: HTML
 
-HTML is an acronym for **Hypertext Markup Language**. It is a declarative language, meaning it instructs by providing code that tells the browser how to organize and render content. Content may be text, images, video, audio and other types of media.
+HTML is an acronym for **Hypertext Markup Language**. It is a declarative language that instructs by providing code that tells the browser how to organize and render content. Content may be text, images, video, audio, and other types of media.
 
 ### Browsers
 
-HTML is interpreted by browsers.  Not all browser are the same.  The chart below from [Statista](https://www.statista.com/statistics/268254/market-share-of-internet-browsers-worldwide-since-2009/) shows that Google Chrome has the most market share, followed by Apple Safari and Microsoft Edge. &#x20;
+Browsers interpret HTML. Not all browsers are the same. The chart below from [Statista](https://www.statista.com/statistics/268254/market-share-of-internet-browsers-worldwide-since-2009/) shows that Google Chrome has the most market share, followed by Apple Safari and Microsoft Edge. &#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Browser Market Share since 2012</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/notes-html.avif" alt=""><figcaption><p>Browser Market Share since 2012. Statista.</p></figcaption></figure>
 
-The HTML language is always evolving.  If you want to find out if the HTML you are using will work in the browsers that you are supporting, you can visit the [caniuse](https://caniuse.com/) page. In the picture below, caniuse is reporting that the HTML table tag element is supported in all of the browsers.
+The HTML language is always evolving. To find out if the HTML you are using will work in the browsers you support, visit the [Caniuse](https://caniuse.com/) page. In the picture below, Caniuse reports that the HTML table tag element is supported in all browsers.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Can I Use provides information on browser access to HTML/JS/CSS specifications.</p></figcaption></figure>
 
 ### Containment
 
-The word containment refers to the way in which HTML element may or may not contain other HTML elements or text.  Many elements will contain other elements or text. &#x20;
+The word containment refers to the way in which an HTML element may or may not contain other HTML elements or text.  Many elements will include other elements or text. &#x20;
 
 The examples below show elements that contain text.
 
@@ -22,7 +22,7 @@ The examples below show elements that contain text.
 
 `<p>This is a paragraph.</p>`
 
-The example below shows and element, ordered list that contain other elements which are list items.
+The example below shows an element-ordered list that contains other elements, which are list items.
 
 `<ol>`
 
@@ -32,7 +32,7 @@ The example below shows and element, ordered list that contain other elements wh
 
 `</ol>`
 
-In the code below, figure contains an image and a figure caption.  The image element, `img`, will not contain any other elements.  The figure caption, `figcaption`, element contains text.
+In the code below, the figure contains an image and a figure caption.  The image element, `img`, will not contain any other elements.  The figure caption, `figcaption`element contains text.
 
 `<figure>`
 
@@ -46,11 +46,11 @@ In the table at the bottom of this page, elements that don't use closing tags wi
 
 ### Block and Inline HTML Elements
 
-The concepts of Block and Inline HTML are important in setting up page layout.  As CSS is added to a page, knowing which elements are block and which are inline will become more important.
+Block and Inline HTML concepts are essential in setting up page layout.  As CSS is added to a page, knowing which elements are blocked and which are inline will become more critical.
 
-For now, it's helpful to understand that block elements use the entire width of the page and therefore any elements following them will be rendered on the next line.  Inline elements will be rendered on the same line.
+For now, it's helpful to understand that block elements use the entire page width, and therefore, any elements following them will be rendered on the next line.  Inline elements will be rendered on the same line.
 
-Images are inline elements.  If we want images to be rendered on a line by themselves we need to contain them in a block element.  Here is an example of containing them in a `div` element.
+Images are inline elements.  If we want images to be rendered on a line by themselves, we need to contain them in a block element.  Here is an example of containing them in a `div` element.
 
 `<div>`
 
@@ -66,17 +66,17 @@ Images are inline elements.  If we want images to be rendered on a line by thems
 
 Just like spoken languages evolve so has HTML.  Years ago div and span were used as containers for most web pages.  Semantic HTML tag elements were introduced to so that the structure that HTML provides would also have meaning.  This is important for accessibility.  While it is possible to style a div element to look like a button element, the meaning is not the same.  The word "semantic" is defined as "meaning in a language".&#x20;
 
-Screen readers that read web pages for visually impaired users can take advantage of semantic HTML.  For example, if a developer uses an article element instead of a div element, it can inform the user that it is reading an article.  Visually, the browser would render the article and element the same, so in that respect these tags are interchangeable.  If the developers is thinking about accessibility, then these tags are very different.
+Screen readers that read web pages for visually impaired users can take advantage of semantic HTML. For example, if a developer uses an article element instead of a div element, it can inform the user that it is reading an article. Visually, the browser would render the article and element the same, so in that respect, these tags are interchangeable. However, if the developer is thinking about accessibility, then these tags are very different.
 
 ### HTML Attributes
 
-The HTML langage is made up of tags that render elements in the browser.  HTML attributes are bits of language markup that supplement the behavior and/or look of the rendered element.  Attributes are words followed by an equal sign and quoted text or numbers. &#x20;
+The HTML language is made up of tags that render elements in the browser.  HTML attributes are bits of language markup that supplement the rendered element's behavior and/or look.  Attributes are words followed by an equal sign and quoted text or numbers. &#x20;
 
-In the example below the images have source, `src`, `height` and `width` attributes.  The source attribute tells the browser where to get the image and the height and width tell it how to size it on the web page. In this example `dog.jpg` refers to an image files with the name `dog.jpg` that is in the same directory as the HTML file.  The width attribute is set to `400px`.  A `px` is a unit of measure that is shorthand for pixel.  You can think of a pixel as a unit of light that is emitted on computer screen.  This means that the width of the image will be rendered as 400 of these units wide.  To put this in perspective, a mobile device averages 350 pixels and a laptop averages about 1920 pixels.  The height attribute is set to "auto".  This ensures that the image won't look funny due to stretching and removing the aspect ratio.&#x20;
+In the example below, the images have sources, `src`, `height` and `width` attributes.  The source attribute tells the browser where to get the image, and the height and width tell it how to size it on the web page. In this example `dog.jpg` refers to image files with a name `dog.jpg` that is in the same directory as the HTML file.  The width attribute is set to `400px`.  A `px` is a unit of measure that is shorthand for pixel.  You can think of a pixel as a unit of light emitted on a computer screen.  This means that the width of the image will be rendered as 400 of these units wide.  To put this in perspective, a mobile device averages 350 pixels, and a laptop averages about 1920 pixels.  The height attribute is set to "auto".  This ensures the image won't look funny due to stretching and removing the aspect ratio.&#x20;
 
 `<img src="dog.jpg" width="400px" height="auto">`
 
-Here's another example where attributes are used.  In this example, an anchor tag is used to render a clickable link.  The href attribute is set to a URL that the user can go to jus by clicking on the link.  The href attribute name is shorthand for hypertext reference.  The term "web" used to describe the internet, came about because of the way sites all over the world are connected by these links.
+Here's another example of attributes being used. In this example, an anchor tag renders a clickable link. The href attribute is set to a URL that the user can go to just by clicking on the link. The href attribute name is shorthand for hypertext reference. The term "web," used to describe the Internet, came about because sites all over the world are connected by these links.
 
 `<a href="https://www.example.com">Example Link</a>`
 
