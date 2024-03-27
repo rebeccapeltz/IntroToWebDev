@@ -2,8 +2,6 @@
 
 <figure><img src="../.gitbook/assets/image (61).png" alt="" width="256"><figcaption><p>Bootstrap Logo</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/schematic-home-page.png" alt=""><figcaption><p>Schematic of GetBootstrap Small Business Template Home Page.</p></figcaption></figure>
-
 ### Web Development Frameworks
 
 Developers use frameworks to improve efficiency and consistency and minimize error.  The Bootstrap framework provides components of CSS shorthand and HTML, CSS, and JavaScript.  We'll be using Bootstrap CSS shorthand for the project.  Working with HTML, CSS, and JavaScript in the browser classifies our work as front end.  This differentiates it from backend development, which involves writing code for a server instead of a browser.
