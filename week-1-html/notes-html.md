@@ -10,7 +10,7 @@ HTML is interpreted by browsers.  Not all browser are the same.  The chart below
 
 The HTML language is always evolving.  If you want to find out if the HTML you are using will work in the browsers that you are supporting, you can visit the [caniuse](https://caniuse.com/) page. In the picture below, caniuse is reporting that the HTML table tag element is supported in all of the browsers.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Containment
 
