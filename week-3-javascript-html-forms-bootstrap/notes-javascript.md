@@ -64,7 +64,7 @@ Variables are found in most programming languages.  They are references to data.
 
 The code below shows how to declare variables in JavaScript.  The `console.log` command will log information to the browser console.  Browser consoles are accessed by opening the Inspector.  The Chrome browser is accessed by clicking on **View | Developer | Inspect.**&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>View JavaScript Console in Chrome</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>View JavaScript Console in Chrome</p></figcaption></figure>
 
 We'll start with `var`, and then use let and const.  Both `var` and `let` examples will return the same value, but the code for `const` will fail because it does not allow reassignment.
 
@@ -188,7 +188,7 @@ The alert function is a built-in JavaScript function that pops up a small window
 
 Executing the code in a Replit application, we see the alert looks like this:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Alert the value returned by the introduce function and stored in the subject variable</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Alert the value returned by the introduce function and stored in the subject variable</p></figcaption></figure>
 
 The alert is a popup and the OK button will close it.
 

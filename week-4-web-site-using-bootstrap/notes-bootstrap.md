@@ -65,6 +65,74 @@ Here is an example of the implementation of a FlexBox layout using Bootstrap.  W
 
 The above code can be found in the [bootstrap documentation](https://getbootstrap.com/docs/5.3/layout/gutters/#horizontal-gutters), showing you what it renders.
 
+### Layout with  the Bootstrap Grid System
+
+We've looked at the `container` class.  There is also a `container-fluid` class.  The difference is that the `container` class takes up a fixed page width, and the `container-fluid` class takes up the entire page width.
+
+The **Grid System** that containers define is a twelve-column grid that essentially breaks up the width of the page into 12 units.  Element are laid out across these units.  An HTML element may take up as little as 1 unit of the container's width or up to 12 units of the container.  The columns are children of rows, so each row can be a container of a set of cols that each takes up 1 or more grid units. &#x20;
+
+The image below shows many ways to layout elements across a 12-unit grid.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bootstrap 12 unit Grid</p></figcaption></figure>
+
+The code for the image above shows how this grid could be implemented.
+
+```html
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1">1</div>
+            <div class="col-sm-1">2</div>
+            <div class="col-sm-1">3</div>
+            <div class="col-sm-1">4</div>
+            <div class="col-sm-1">5</div>
+            <div class="col-sm-1">6</div>
+            <div class="col-sm-1">7</div>
+            <div class="col-sm-1">8</div>
+            <div class="col-sm-1">9</div>
+            <div class="col-sm-1">10</div>
+            <div class="col-sm-1">11</div>
+            <div class="col-sm-1">12</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">1</div>
+            <div class="col-sm-2">2</div>
+            <div class="col-sm-2">3</div>
+            <div class="col-sm-2">4</div>
+            <div class="col-sm-2">5</div>
+            <div class="col-sm-2">6</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">1</div>
+            <div class="col-sm-3">2</div>
+            <div class="col-sm-3">3</div>
+            <div class="col-sm-3">4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">1</div>
+            <div class="col-sm-4">2</div>
+            <div class="col-sm-4">3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">1</div>
+            <div class="col-sm-6">2</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">1</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">1</div>
+            <div class="col-sm-8">2</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">1</div>
+            <div class="col-sm-6">2</div>
+            <div class="col-sm-3">3</div>
+        </div>
+    </div>
+```
+
+
+
 ### Summary of Bootstrap Classes
 
 The table below summarizes the Bootstrap classes we'll encounter in the project.
@@ -78,6 +146,8 @@ The table below summarizes the Bootstrap classes we'll encounter in the project.
 |       |         |   |
 
 ###
+
+
 
 ### StartBootstrap Templates
 
