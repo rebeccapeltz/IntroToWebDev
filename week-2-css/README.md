@@ -2,6 +2,6 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>CSS provides style. Image from rawpixel.com.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css-intro.webp" alt=""><figcaption><p>CSS provides style. Image from rawpixel.com.</p></figcaption></figure>
 
 CSS is the language that provides style. The complete set of styles provides the visual theme that makes a website whole.  The CSS coder provides instructions that ensure page layout, color, and font are executed with consistency, accessibility, and aesthetic value.

@@ -1,6 +1,6 @@
 # Week 3: JavaScript and HTML Forms
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>JavaScript is used to process HTML forms. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/javascript-forms.webp" alt=""><figcaption></figcaption></figure>
 
 JavaScript is used in both front-end and back-end code.  It is the most popular computer language in the world.  It is considered versatile and easy to learn.  There is a large community of JavaScript developers who are continually teaching each other how to master the language and sharing innovations in its use.  In this course, you'll use it to make your web page dynamic and interactive.
 

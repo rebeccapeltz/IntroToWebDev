@@ -1,6 +1,6 @@
 # Week 4: Web Site Using Bootstrap
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p>A Website about  apples</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/intro-bootstrap.avif" alt=""><figcaption></figcaption></figure>
 
 At this point, we've developed skills for crafting web pages using HTML, CSS, and JavaScript. The next step is to assemble a set of pages comprising a full website. &#x20;
 
