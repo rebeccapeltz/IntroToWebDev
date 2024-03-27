@@ -1,6 +1,6 @@
 # Notes: Bootstrap
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>Bootstrap Logo</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt="" width="256"><figcaption><p>Bootstrap Logo</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/schematic-home-page.png" alt=""><figcaption><p>Schematic of GetBootstrap Small Business Template Home Page.</p></figcaption></figure>
 
