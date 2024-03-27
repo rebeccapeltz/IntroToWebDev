@@ -133,7 +133,7 @@ The code for the image above shows how this grid could be implemented.
 
 ### Summary of Bootstrap Classes
 
-The table below summarizes the Bootstrap classes we'll encounter in the project.
+The table below summarizes the Bootstrap classes we'll encounter in the starter project.
 
 
 
