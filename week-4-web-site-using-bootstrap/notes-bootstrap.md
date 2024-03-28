@@ -137,24 +137,7 @@ The table below summarizes the Bootstrap classes we'll encounter in the starter 
 
 
 
-| Category          | Class Sample | Explanation |
-| ----------------- | ------------ | ----------- |
-| Responsive Layout |              |             |
-|                   | row          |             |
-|                   | col          |             |
-| Nav               |              |             |
-|                   |              |             |
-|                   |              |             |
-|                   |              |             |
-| Card              |              |             |
-|                   |              |             |
-|                   |              |             |
-|                   |              |             |
-| General           |              |             |
-|                   |              |             |
-|                   |              |             |
-|                   |              |             |
-|                   |              |             |
+<table><thead><tr><th width="172">Category</th><th width="210">Class Sample</th><th>Notes</th></tr></thead><tbody><tr><td><a href="https://getbootstrap.com/docs/5.3/layout/grid/">Grid System</a></td><td></td><td></td></tr><tr><td></td><td><code>container</code>, <code>container-fluid</code></td><td>Use <code>container</code> for fixed width and <code>container-fluid</code> for full width.</td></tr><tr><td></td><td><code>col</code>, <code>col-6</code>, c<code>ol-sm-6</code>, <code>col-auto</code></td><td>Use col to specify columns in the grid.  Use .col and .col-* for all device sizes.  Use size  (1-12) for responsive changes to column size.  Use a number to create a proportional width where all the numbers add up to 12 in a row.</td></tr><tr><td></td><td><code>row</code> <code>gx-4</code> or <code>gy-4</code></td><td>Add gutters to a row. They create horizontal padding with <code>gx</code> and vertical padding with <code>gy</code>.</td></tr><tr><td></td><td><code>row</code></td><td>The <code>row</code> elements contain the col elements.  Specify the gutter in the <code>row</code> element.</td></tr><tr><td></td><td><code>row-cols-2</code></td><td>Set the the number of rows in a column. Use just <code>col</code> for each column. In this example, there are 2 columns for each row.</td></tr><tr><td>Nav</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td>Card</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td>General</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 ###
 
