@@ -29,4 +29,5 @@
   * [Notes: Anatomy of a URL](week-4-web-site-using-bootstrap/notes-anatomy-of-a-url.md)
   * [Notes: Content](week-4-web-site-using-bootstrap/notes-gathering-content.md)
   * [Notes: Bootstrap](week-4-web-site-using-bootstrap/notes-bootstrap.md)
+  * [StartBootstrap Templates](week-4-web-site-using-bootstrap/startbootstrap-templates.md)
   * [Project: Bootstrap Website](week-4-web-site/project-bootstrap-website.md)

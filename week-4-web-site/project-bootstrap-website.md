@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Schematic of Get Bootstrap Small Business Template from Start Bootstrap</p></figcaption></figure>
 
-###
+### StartBootstrap Small Business Starter
 
 ###
 
