@@ -137,24 +137,24 @@ The table below summarizes the Bootstrap classes we'll encounter in the starter 
 
 
 
-| Category          | Class | Notes |
-| ----------------- | ----- | ----- |
-| Responsive Layout |       |       |
-|                   | row   |       |
-|                   | col   |       |
-| Nav               |       |       |
-|                   |       |       |
-|                   |       |       |
-|                   |       |       |
-| Card              |       |       |
-|                   |       |       |
-|                   |       |       |
-|                   |       |       |
-| General           |       |       |
-|                   |       |       |
-|                   |       |       |
-|                   |       |       |
-|                   |       |       |
+| Category          | Class Sample | Explanation |
+| ----------------- | ------------ | ----------- |
+| Responsive Layout |              |             |
+|                   | row          |             |
+|                   | col          |             |
+| Nav               |              |             |
+|                   |              |             |
+|                   |              |             |
+|                   |              |             |
+| Card              |              |             |
+|                   |              |             |
+|                   |              |             |
+|                   |              |             |
+| General           |              |             |
+|                   |              |             |
+|                   |              |             |
+|                   |              |             |
+|                   |              |             |
 
 ###
 
