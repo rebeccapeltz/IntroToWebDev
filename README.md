@@ -13,3 +13,5 @@ There are five sections in this course that are doable in four weeks:
 3. **Week 2 - CSS**: the style of the document
 4. **Week 3 - JavaScript**: the interactive document
 5. **Week 4 - Bootstrap**: the multi-document solution
+
+[Introduction to Web Development](https://rpeltz.gitbook.io/introduction-to-web-development)
