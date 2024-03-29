@@ -18,20 +18,21 @@ For this project, we'll import the GitHub repository [bootstrap-small-business](
 
 Here are the steps to fulfill the requirements for adding content and features:
 
-* Import the  [bootstrap-small-business](https://github.com/rebeccapeltz/bootstrap-small-business) repository into a replit.com account
-* Render the home page and look at the code used to create it
-* Choose a business that will add content.  Your content will include text and images.  See the notes on content to find content.  Think about calls to action: what actions do you want your user to take?  In the code, you'll see that you can pop up an alert to indicate that action was taken as a button click.
-* Notice that some of the information is in parentheses. For that missing information, add data relevant to your business.
-* Add images to the home page.  These images represent products that your business sells.
-*   Add Nav bars to the **about** and **contact** pages.  The **services** page is optional, but if you want to add that to your website, add it to each nav bar item list.  The links and the active class must be adjusted for each web page.  For example, on the home page, each product has a button.  In an e-commerce website, this button would take the user to a page where they see more information about the product.  You could create a page for each project, or just add an on-click alert a shown in the examples below.
+1. Import the  [bootstrap-small-business](https://github.com/rebeccapeltz/bootstrap-small-business) repository into a replit.com account
+2. Render the home page and look at the code used to create it
+3. Choose a business that will add content.  Your content will include text and images.  See the notes on content to find content.  Think about calls to action: what actions do you want your user to take?  In the code, you'll see that you can pop up an alert to indicate that action was taken as a button click.
+4. Notice that some of the information is in parentheses. For that missing information, add data relevant to your business.
+5. Add images to the home page.  These images represent products that your business sells.
+6. Add Nav bars to the **about** and **contact** pages.  The **services** page is optional, but if you want to add that to your website, add it to each nav bar item list.  The links and the active class must be adjusted for each web page.  For example, on the home page, each product has a button.  In an e-commerce website, this button would take the user to a page where they see more information about the product.  You could create a page for each project or add an on-click alert, as shown in the examples below.
 
-    ```html
-    <button onclick="alert('Button clicked!')">Click Me</button>
-    <a class="btn btn-outline-dark mt-auto" href="#" onclick="alert('Product 1 selected')">View options</a>
+```html
+<button onclick="alert('Button clicked!')">Click Me</button>
+<a class="btn btn-outline-dark mt-auto" href="#" onclick="alert('Product 1 selected')">View options</a>
 
-    ```
-*
-*
+```
+
+7.
+8.
 
 ###
 
