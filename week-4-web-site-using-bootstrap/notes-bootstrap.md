@@ -71,7 +71,7 @@ The **Grid System** that containers define is a twelve-column grid that essentia
 
 The image below shows many ways to layout elements across a 12-unit grid.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bootstrap 12 unit Grid</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Bootstrap 12 unit Grid</p></figcaption></figure>
 
 The code for the image above shows how this grid could be implemented.
 

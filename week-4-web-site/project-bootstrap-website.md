@@ -31,14 +31,15 @@ Here are the steps to fulfill the requirements for adding content and features:
 
 ```
 
-7.
-8.
+7. For text content, you can write your own or explore some of the results you get from AI.  The Microsoft Edge and Chrome browsers often generate lengthy responses that can help fill out the text content.  You can also sign up for free accounts at  [ChatGP](https://chat.openai.com/) and [Gemini](https://gemini.google.com/app).
+8. The project comes with a favicon and brand icon featuring an apple. The favicon can be seen in the browser tab. The brand image is in the upper left corner of the nav bar.  This image came from downloading an icon image from [Iconduck](https://iconduck.com/).  To download this image, click on the icon and view its details.  Then, inspect the icon's image and open it in another tab to download it. Then, upload it into your replit.com project. ![](../.gitbook/assets/image.png)
+9. There are three CSS files in the project. The **styles.css** contains the Bootstrap-generated CSS. The **stickyfooter.css** creates a footer that is always located at the bottom of the page, even if the content doesn't extend to that. The **custom.css** is a place where you can add your own CSS. Sometimes, you need to override the Bootstrap CSS, and the customer.css file should contain those overrides.  Load the services.html in your browser to see how the sticky footer looks.
+10. On the About page, there are links for email and phone.  Try these out.  The `hrefs` for these links specify `tel` and `mailto`.  These prefixes will trigger the browser to locate an app that can use phone numbers or email data. &#x20;
+11. Fill in the Copyright information.  This should be your name or the name of your business.
 
 ###
 
-### Favicon
-
-[Red Apple](https://icons8.com/icon/tsGqagtVj0Ka/red-apple) icon by [Icons8](https://icons8.com/)
+###
 
 ### Start Bootstrap License
 
@@ -50,8 +51,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 ###
 
-### Parallax Scrolling With CSS
-
-
-
-Background content moves at a different speed than foreground content. The CSS for this effect is turned off for mobile and tablet devices using a media query.
+###
