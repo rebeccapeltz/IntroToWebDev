@@ -6,11 +6,70 @@
 
 Adding features and content to an existing project starts with understanding the existing code.  The key is to look for patterns in the code and recognize what they are rendering. Drawing a schematic diagram like the one above that captures the patterns on the index page of the Small Business starter helps to see the code patterns.
 
-The page starts with a nav bar containing links to other pages. Then comes the heading row, which includes an image lined up with three rows of header, paragraph, and call-to-action button (CTA). The CTA will show up in several places, sometimes rendered as a button and sometimes as a card. The card may contain just text with a link or it may include a button. The CTA encourages the user to take some action.
+The page starts with a nav bar containing links to other pages. Then comes the heading row, which includes an image lined up with three rows of header, paragraph, and call-to-action button (CTA). The CTA will appear in several places, sometimes rendered as a button or a card. The card may contain text with a link, or it may include a button. The CTA encourages the user to take some action.
 
 For this project, we'll import the GitHub repository [bootstrap-small-business](https://github.com/rebeccapeltz/bootstrap-small-business) into replit.com. This repository is modified from the Start Bootstrap Small Business starter.  The starter only shows the index page.  Our modified repository contains additional pages for **about**, **contact**, and **service**.  The **nav** bar is set up in the index.html to access About and Contact.  Images have been added to the home page cards, and images are rendered that specify the image size needed.
 
+### Code Patterns
 
+It is helpful to look at code patterns and understand what they render when adding features to existing code.  A good way to start is to draw a schematic that blocks off sections of the web page and then map the code to those sections.  Look at the image above and then look at the code below that maps to it.  The goal is to be able to look at the code and visualize what it would look like rendered.  Look at the Notes on Bootstrap if you need to figure out what the effect of the Bootstrap CSS used.
+
+#### Responsive Nav
+
+The code below renders the nav bar on the home page.  As you look at this code, think about what would need to change for the about and contact pages.
+
+```html
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <img class="icon-brand"  class="pe-3" src="./apple-brand.png" height="30px" width="auto" alt="brand">
+        <a class="navbar-brand" href="./">(Site Name)</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+```
+
+#### Column Row Cards
+
+Most developers would agree that one of the challenges of reading and writing HTML is that there is a closing tag for most elements.  In the code below, you won't see all of the code on the page.  The `...` is a signal that there is code between two tags.  What you want to take away from this is that to render a `row` of columns (`col`), as seen in the product list, you need to render a `container`, followed by a `row`, and then a `col` containing a `card`.  Each `card` contains a `card-img-top`, a `card-body`, and a `div` with a `header` and text.
+
+```html
+<div class="container px-4 px-lg-5">
+...
+ <!-- new row in container -->
+ <div class="row gx-4 gx-lg-5">
+     <!-- new column in row -->
+    <div class="col-md-3 mb-5">
+        <div class="card h-100">
+            <!-- Product image-->
+            <img class="card-img-top" src="https://fakeimg.pl/300x200" alt="...">
+            <!-- Product details-->
+            <div class="card-body p-4">
+                <div class="text-center">
+                    <!-- Product name-->
+                    <h5 class="fw-bolder">Fancy Product 1</h5>
+                    <!-- Product price-->
+                    $40.00 - $80.00
+                </div>
+            </div>
+            <!-- Product actions-->
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+            </div>
+        </div>
+    </div>
+    ...
+```
+
+Creating your schematics with just pen and paper can help you to recognize code patterns and understand how the page was structured and styled.
 
 ### New Feature Requirements
 
