@@ -34,3 +34,4 @@
   * [Notes: License](week-4-web-site-using-bootstrap/notes-license.md)
   * [StartBootstrap Templates](week-4-web-site-using-bootstrap/startbootstrap-templates.md)
   * [Project: Bootstrap Website](week-4-web-site/project-bootstrap-website.md)
+* [Wrap Up](wrap-up.md)
