@@ -8,6 +8,10 @@ To help you start this image gallery project, a repository on GitHub has fake im
 
 This is the URL to the repository containing the image gallery code: [https://github.com/rebeccapeltz/image-galleries](https://github.com/rebeccapeltz/image-galleries)
 
+#### Video Walkthrough
+
+See this [video](https://youtu.be/N0EeKWYBx1c?si=g6kJNLve2wYwYJGH) to learn how to import code from a remote repository to create a new Repl. Once you have imported the code, you will see that it is still synced with the original repository, which you may not be authorized to update. The video shows you how to remove that connection and establish a new one to a GitHub account you are approved in Replit to use.
+
 #### Instructions for Importing a GitHub Repository
 
 1. Copy the repository link into your clipboard.
