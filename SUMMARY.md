@@ -35,3 +35,4 @@
   * [StartBootstrap Templates](week-4-web-site-using-bootstrap/startbootstrap-templates.md)
   * [Project: Bootstrap Website](week-4-web-site/project-bootstrap-website.md)
 * [Wrap Up](wrap-up.md)
+* [Videos](videos.md)
