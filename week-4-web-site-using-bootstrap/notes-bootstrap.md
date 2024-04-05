@@ -8,6 +8,8 @@ Developers use frameworks to improve efficiency and consistency and minimize err
 
 Frameworks are constructive when you are working on multiple pages or a team.  As you learn the Bootstrap shorthand, think about how confusing it would be if every developer on a team created their own CSS shorthand or if every page used its own set of CSS class names.  Bootstrap creates its shorthand using classes.
 
+See this [video](https://youtu.be/UWfYY9CZblE?si=ZU-aSrVOY5\_FDesw) to learn more about using the Bootstrap 5.3 documentation.
+
 ### Bootstrap and CSS
 
 Bootstrap is [well-documented](https://getbootstrap.com/docs/5.3/getting-started/introduction/).  Visit the documentation to learn how Bootstrap has created a shorthand for CSS.  We will link a local stylesheet containing Bootstrap's CSS to use it in the document.

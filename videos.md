@@ -11,3 +11,4 @@ Here's a list of videos targeted to help with working with tools in this course:
 * [Notes on Replit GitHub Integration](https://youtu.be/CH3Sa62Hawc?si=sLYldRqCK6-MCHdY)
 * [GitHub Pages Web Hosting](https://youtu.be/m27YZN8lxKE?si=-dCSKv4RROf3O-R-)
 * [Import GitHub Repository into Replit](https://youtu.be/N0EeKWYBx1c?si=Q7o52jiQc-fWUZ7A)
+* [Using Bootstrap Documentation](https://youtu.be/UWfYY9CZblE?si=ZU-aSrVOY5\_FDesw)
