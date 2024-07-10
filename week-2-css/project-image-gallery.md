@@ -18,28 +18,28 @@ See this [video](https://youtu.be/N0EeKWYBx1c?si=g6kJNLve2wYwYJGH) to learn how 
 2. From your Replit dashboard, click "Create Repl".
 3. Click Import from GitHub in the top right corner instead of choosing a template.
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Initiate Import a Repository from GitHub into Replit</p></figcaption></figure>
 
 4. Click on the "From URL" tab and paste in the link above.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Complete Import from GitHub into Replit</p></figcaption></figure>
 
 
 
 5. Click on "Import from GitHub".  You'll see a title page with a navigation bar to view other pages.
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/flexbyrow.png" alt=""><figcaption><p>Click on the "Flex By Row" button on web page</p></figcaption></figure>
 
-6. Click on "Flex by Row".
+5. Click on "Flex by Row".
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p>Click on the "Flex By Row" button on web page</p></figcaption></figure>
 
 7. Click on "Flex by Column.
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Click on the "Flex By Column" button on web page</p></figcaption></figure>
 
 ### Instructions for the Project
 
-Upload or create links online for at least 6 images to put into the galleries. Import the starter code.  Notice that the Flex by Row code shows the title below the image, but the Flex by Column code uses animation to overlay the title on the picture when you hover over the image.
+sixUpload or create links online for at least 6 images to put into the galleries. Import the starter code.  Notice that the Flex by Row code shows the title below the image, but the Flex by Column code uses animation to overlay the title on the picture when you hover over the image.
 
 Ensure you can spot the code patterns described in the readings in **Notes: Flexbox.**

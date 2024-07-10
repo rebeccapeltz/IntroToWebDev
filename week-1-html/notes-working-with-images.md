@@ -101,13 +101,13 @@ Upload the file from the Download directory to replit..
 
 Create a new folder to store uploaded images.  Call it "images".
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Create a new folder to store images</p></figcaption></figure>
 
 Drag the image file that was uploaded into the **/images** folder.
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Use a new folder /images to store uploaded images</p></figcaption></figure>
 
-Replacing "Hello World" with an image tag.  By placing the `./` in front of the folder we are directing the browser to start looking for the images folder from the current code location.
+Replacing "Hello World" with an image tag.  By placing the dot slash`./` in front of the folder name we are directing the browser to start looking for the images folder from the current code location.
 
 ```
  <img height="400" width="auto" src="./images/skewed-min.jpg" alt="tree">
@@ -117,13 +117,13 @@ Replacing "Hello World" with an image tag.  By placing the `./` in front of the 
 
 ### Image File Types
 
-The file extension on images reveals the format used for the image.  Image file formats are continually evolving.   The png and jpg (or jpeg) extensions are the most common and have been around for many years.  Different formats provide different features.  For example if your image needs to provide transparency, you will need a webp, avif, or png format. &#x20;
+The file extension on images reveals the format used for the image.  Image file formats are continually evolving.   The png and jpg (or jpeg) extensions are the most common and have existed for many years.  Different formats provide different features.  For example, if your image needs transparency, you will need a webp, avif, or PNG format. &#x20;
 
 <figure><img src="../.gitbook/assets/transparent.png" alt="" width="188"><figcaption><p>Transparent Image Example</p></figcaption></figure>
 
 
 
-If you need animation, you'll want to use a gif or avif.
+You'll want to use a gif or avif if you need animation.
 
 <figure><img src="../.gitbook/assets/freegif.gif" alt=""><figcaption><p>Git Example</p></figcaption></figure>
 

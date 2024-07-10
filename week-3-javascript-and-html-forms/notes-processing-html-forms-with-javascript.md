@@ -16,7 +16,7 @@ We'll focus on the input types of `radio` and `text`.
 
 To access data in an input element from JavaScript, use the `value` attribute.  The value attribute can also be set in JavaScript.  In the Input Sampler shown above, you can see data in the  `Number` and `Password` fields.  This is not `value` data but `placeholder` data.  The placeholder attribute provides a way to add instructions to the user from within an input element.
 
-The sample code below shows how to access the input data's `value` and `type` using JavaScript.
+The sample code below shows how to access the input data `value` and `type` using JavaScript.
 
 ```javascript
  document.querySelectorAll("input").forEach(function(inputData){
@@ -28,7 +28,7 @@ The sample code below shows how to access the input data's `value` and `type` us
 
 #### Retrieve Data from Radio Buttons
 
-Radio input buttons are rendered as tiny circles that are clickable.  In most cases, a set of radio buttons is expected to return a single value.  Each radio button is rendered as a separate input.  To create a set of related radio buttons, we add the name attribute, and all the radio buttons in a set get the same name.
+Radio input buttons are rendered as tiny circles that are clickable.  A set of radio buttons is usually expected to return a single value.  Each radio button is rendered as a separate input.  To create a set of related radio buttons, we add the name attribute, and all the radio buttons in a set get the same name.
 
 The code below renders a set of radio buttons that allow the user to choose a `size` from Small, Medium, or Large.  We use the Label element to assign the selection values. &#x20;
 
@@ -130,7 +130,7 @@ The code renders a list of radio buttons within a rectangle.&#x20;
 
 ### Processing Form Inputs in Form Event Handler
 
-Processing the form data begins when the user clicks a button or other clickable element.  In the examples we've been working with the clickable element is and `input` with type `button`.
+Processing the form data begins when the user clicks a button or other clickable element.  In the examples we've been working with, the clickable element is an `input` with type `button`.
 
 ```html
  <input id="update" type="button" value="Update">
@@ -164,7 +164,7 @@ document.querySelector("#update").addEventListener("click", event => {
 
 We've looked at updating the DOM after the Windows `load` event is triggered.  We can update the DOM after data has been entered in a form and a `click` event is triggered.
 
-In this example, we allow the user to choose the font they want to see on the page they are viewing.
+In this example, we allow the user to choose the font they want to see on their viewing page.
 
 ```html
 <body>
@@ -201,7 +201,7 @@ In this example, we allow the user to choose the font they want to see on the pa
 
 We can start with a default browser font family and then use the chosen one after the update.
 
-On the left, we see the default font family, and on the right, after clicking on the update button, we see the Gil Sans font family.
+On the left, we see the default font family; on the right, after clicking on the update button, we see the Gil Sans font family.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Changing the Font Family base on Form InputInstructions to select inputs and extract data are executed inside the handler function</p></figcaption></figure>
 

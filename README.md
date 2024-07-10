@@ -18,6 +18,6 @@ There are five sections in this course that are doable in four weeks:
 
 Reading about writing code is more meaningful if you use the code you're reading about.  This book includes instructions for working on projects that reflect what has been provided in the reading. &#x20;
 
-The projects will walk you though using the tools to create and host websites.&#x20;
+The projects will walk you through using the tools to create and host websites.&#x20;
 
 [Introduction to Web Development](https://rpeltz.gitbook.io/introduction-to-web-development)

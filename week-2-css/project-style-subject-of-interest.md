@@ -20,17 +20,9 @@ Try these techniques by applying them to the HTML Assignment where you described
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Centered Web Page</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Add color and font</p></figcaption></figure>
-
-###
-
-###
-
 ### Applying CSS to Center the Content
 
 Study this [code](https://github.com/rebeccapeltz/CenterPage) and [web page](https://www.beckypeltz.me/CenterPage/) to visualize how the different ways of centering are applied.  Use the resources below to make color and font changes.
-
-
 
 ### Resources
 

@@ -20,7 +20,7 @@ Before we add CSS for these layouts, we'll look at two broad techniques for cont
 
 ### Layout With No Styling
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>No Style</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>No added Style</p></figcaption></figure>
 
 
 

@@ -1,8 +1,8 @@
 # Week 4: Web Site Using Bootstrap
 
-<figure><img src="../.gitbook/assets/intro-bootstrap.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/intro-bootstrap.avif" alt=""><figcaption><p>Home Page for a Web Site</p></figcaption></figure>
 
-At this point, we've developed skills for crafting web pages using HTML, CSS, and JavaScript. The next step is to assemble a set of pages comprising a full website. &#x20;
+At this point, we've developed skills for crafting web pages using HTML, CSS, and JavaScript. The next step is assembling a page set comprising a full website. &#x20;
 
 ### What is a Web Page Compared to a Web Site?
 
